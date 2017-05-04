@@ -1,0 +1,164 @@
+[{
+    "id" : "space_anomaly",
+    "type" : "GENERIC",
+    "category" : "veh_parts",
+    "name" : "stabilized portal",
+    "description" : "As you gaze into the seemingly infinite depths of this portable hole in reality, a phrase from a time forever gone echoes in your mind. \"There are two things that are infinite: the universe and human kleptomania.\"",
+    "weight" : 22813,
+    "volume" : 200,
+    "price" : 1500000,
+    "to_hit" : -4,
+    "bashing" : 2,
+    "material" : ["steel", "plastic"],
+    "symbol" : "]",
+    "color" : "cyan"
+  }, {
+    "id" : "spiral_matrix",
+    "type" : "TOOL",
+    "name" : "diamond matrix",
+    "description" : "A sparkling diamond with a dazzling spiral pattern.  Small pieces of glittering crystal form on the edges as you hold it.  With enough base material, applying it to objects causes organic matter, wood in particular, to rapidly transform into diamond. However, this new crystalline compound quickly disintegrates without some other form of support.",
+    "weight" : 250,
+    "volume" : 1,
+    "price" : 500000,
+    "to_hit" : -5,
+    "material" : "diamond",
+    "symbol" : "*",
+    "color" : "white",
+    "revert_to" : "null",
+    "max_charges" : 1000,
+    "ammo" : "charcoal",
+    "book_data" : {
+      "max_level" : 0,
+      "intelligence" : 0,
+      "time" : 1,
+      "fun" : 0,
+      "skill" : "fabrication",
+      "required_level" : 1
+    }
+  }, {
+    "type" : "ENGINE",
+    "id" : "vgen",
+    "name" : "vortex engine",
+    "description" : "A tornado in a box, so to speak. Inside this innocuous tank contains either the culmination of human innovation in clean energy, or a weapon of mass destruction capable of wiping civilization - or what's left of it - off the map. An external mechanism allows it to be attached to a vehicle to render it mobile.",
+    "weight" : 62071,
+    "volume" : 225,
+    "color" : "magenta",
+    "symbol" : ",",
+    "material" : ["steel"],
+    "bashing" : 4,
+    "price" : 1500000,
+    "category" : "veh_parts",
+    "fuel_type" : "water"
+  }, {
+    "type" : "TOOL",
+    "id" : "vgen2",
+    "name" : "vortex generator",
+    "description" : "A tornado in a box, so to speak. Inside this innocuous tank contains either the culmination of human innovation in clean energy, or a weapon of mass destruction capable of wiping civilization - or what's left of it - off the map. An external mechanism allow it to be hooked up to a battery to store the power generated. To activate, install it on a vehicle, add water, and activate. The water acts as coolant and will occasionally need to be replaced.",
+    "weight" : 48066,
+    "volume" : 200,
+    "to_hit" : -4,
+    "color" : "magenta",
+    "symbol" : ":",
+    "material" : ["steel"],
+    "bashing" : 7,
+    "category" : "veh_parts",
+    "price" : 90000,
+    "ammo" : "water",
+    "max_charges" : 100
+  }, {
+    "id" : "vortexcannon",
+    "type" : "GUN",
+    "name" : "vortex cannon",
+    "description" : "A weapon powered by barely contained vortex energies.  It hurls enormously powerful bursts of wind, forcing enemies back in addition to dealing damage.  The bulkiness of the containment device as well as the heavy recoil means it requires a stable platform on which to be mounted.",
+    "weight" : 35000,
+    "volume" : 40,
+    "price" : 60000,
+    "to_hit" : -1,
+    "bashing" : 12,
+    "material" : ["steel", "plastic"],
+    "symbol" : "(",
+    "color" : "ltgray",
+    "skill" : "launcher",
+    "range" : 18,
+    "ranged_damage" : 25,
+    "dispersion" : 2000,
+    "sight_dispersion" : 150,
+    "durability" : 10,
+    "reload" : 1000,
+    "recoil" : 500,
+    "valid_mod_locations" : [],
+    "ammo_effects" : ["WIDE", "BEANBAG", "DRAW_AS_LINE", "NO_ITEM_DAMAGE"],
+    "flags" : ["NEVER_JAMS", "MOUNTED_GUN"],
+    "modes" : [
+      ["DEFAULT", "auto", 15]
+    ]
+  }, {
+    "id" : "dobelisk",
+    "copy-from" : "blaze_gun_base",
+    "type" : "GUN",
+    "name" : "diamond obelisk",
+    "description" : "A tall tower composed almost entirely of diamond, the cluster of diamond matrices focuses the energy from an array of solar panels into a terribly powerful laser.  It is also capable of storing energy from the sun and can fire even in the dark.",
+    "weight" : 250000,
+    "volume" : 120,
+    "price" : 60000,
+    "material" : ["diamond"],
+    "symbol" : "(",
+    "color" : "white",
+    "skill" : "launcher",
+    "range" : 30,
+    "ranged_damage" : 100,
+    "pierce" : 50,
+    "dispersion" : 150,
+    "sight_dispersion" : 150,
+    "reload" : 1000,
+    "recoil" : 0,
+    "ups_charges" : 200,
+    "ammo_effects" : ["LASER", "WIDE", "FLAME", "DRAW_AS_LINE"],
+    "modes" : [
+      ["DEFAULT", "single", 1]
+    ]
+  }, {
+    "id" : "dprism",
+    "copy-from" : "blaze_gun_base",
+    "type" : "GUN",
+    "name" : "diamond prism",
+    "description" : "A smaller crystal that fell off the diamond obelisk upon creation.  Through some unknown mechanism, is able to link with the obelisk to fire a small, yet still powerful laser.  Even more perplexing is its ability to do so without guidance.",
+    "weight" : 2500,
+    "volume" : 10,
+    "price" : 60000,
+    "material" : ["diamond"],
+    "symbol" : "(",
+    "color" : "white",
+    "skill" : "launcher",
+    "range" : 10,
+    "ranged_damage" : 15,
+    "pierce" : 15,
+    "dispersion" : 150,
+    "sight_dispersion" : 150,
+    "reload" : 1000,
+    "recoil" : 0,
+    "ups_charges" : 25,
+    "ammo_effects" : ["LASER", "WIDE", "DRAW_AS_LINE"],
+    "modes" : [
+      ["DEFAULT", "single", 1]
+    ]
+  }, {
+    "id" : "blazemod_diamond",
+    "type" : "requirement",
+    "//" : "Making Diamond Stuff",
+    "tools" : [[["spiral_matrix", 250]]]
+  }, {
+    "id" : "blazemod_diamondfix",
+    "type" : "requirement",
+    "//" : "Fixing Diamond Stuff",
+    "tools" : [[["spiral_matrix", 25]]]
+  }, {
+    "id" : "blazemod_diamondminor",
+    "type" : "requirement",
+    "tools" : [[["spiral_matrix", 100]]]
+  }, {
+    "id" : "blazemod_diamondfixminor",
+    "type" : "requirement",
+    "tools" : [[["spiral_matrix", 10]]]
+  }
+]

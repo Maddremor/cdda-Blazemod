@@ -1,0 +1,158 @@
+[{
+    "abstract" : "blaze_mag_base",
+    "name" : "blaze_base_magazine1",
+    "type" : "MAGAZINE",
+    "weight" : 1200,
+    "volume" : 20,
+    "price" : 0,
+    "material" : "steel",
+    "symbol" : "#",
+    "color" : "dark_gray",
+    "reliability" : 10,
+    "reload_time" : 50,
+    "flags" : ["MAG_BULKY"]
+  }, {
+    "abstract" : "blaze_mag_bullet",
+    "name" : "blaze_base_magazine2",
+    "type" : "MAGAZINE",
+    "weight" : 1200,
+    "volume" : 10,
+    "price" : 0,
+    "material" : "steel",
+    "symbol" : "#",
+    "color" : "dark_gray",
+    "reliability" : 10,
+    "reload_time" : 50,
+    "flags" : ["MAG_BULKY"]
+  }, {
+    "abstract" : "blaze_mag_large",
+    "name" : "blaze_base_magazine3",
+    "type" : "MAGAZINE",
+    "weight" : 1200,
+    "volume" : 40,
+    "price" : 0,
+    "material" : "steel",
+    "symbol" : "#",
+    "color" : "dark_gray",
+    "reliability" : 10,
+    "reload_time" : 100,
+    "flags" : ["MAG_BULKY"]
+  }, {
+    "id" : "blaze_mag_bolt",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_base",
+    "name" : "bolt hopper",
+    "description" : "A container meant to hold ammunition for improvised weapons; it's far too unwieldly for use in hand-held weaponry. This one is primed specifically for crossbow bolts, but can altered to hold different types of improvised ammunition by using it.",
+    "ammo_type" : "bolt",
+    "capacity" : 500,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_nail",
+      "msg" : "You fiddle with the hopper a bit."
+    }
+  }, {
+    "id" : "blaze_mag_nail",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_base",
+    "name" : "nail hopper",
+    "description" : "A container meant to hold ammunition for improvised weapons; it's far too unwieldly for use in hand-held weaponry. This one is primed specifically for nails, but can altered to hold different types of improvised ammunition by using it.",
+    "ammo_type" : "nail",
+    "capacity" : 500,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_shard",
+      "msg" : "You fiddle with the hopper a bit."
+    }
+  }, {
+    "id" : "blaze_mag_shard",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_base",
+    "name" : "scrap hopper",
+    "description" : "A container meant to hold ammunition for improvised weapons; it's far too unwieldly for use in hand-held weaponry. This one is primed specifically for metal fragments, but can altered to hold different types of improvised ammunition by using it.",
+    "ammo_type" : "shrapnel",
+    "capacity" : 1000,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_disk",
+      "msg" : "You fiddle with the hopper a bit."
+    }
+  }, {
+    "id" : "blaze_mag_disk",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_base",
+    "name" : "disk hopper",
+    "description" : "A container meant to hold ammunition for improvised weapons; it's far too unwieldly for use in hand-held weaponry. This one is primed specifically for metal fragments, but can altered to hold different types of improvised ammunition by using it.",
+    "ammo_type" : "ripdisk",
+    "capacity" : 500,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_flintlock",
+      "msg" : "You fiddle with the hopper a bit."
+    }
+  }, {
+    "id" : "blaze_mag_flintlock",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_base",
+    "name" : "paper cartridge hopper",
+    "description" : "A container meant to hold ammunition for improvised weapons; it's far too unwieldly for use in hand-held weaponry. This one is primed specifically for paper cartridges, but can altered to hold different types of improvised ammunition by using it.",
+    "ammo_type" : "flintlock",
+    "capacity" : 500,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_bolt",
+      "msg" : "You fiddle with the hopper a bit."
+    }
+  }, {
+    "id" : "blaze_mag_rock",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_large",
+    "name" : "heavy-duty rack",
+    "description" : "A container meant to hold ammunition for large improvised weapons. This one is a rather complex loader for very crude ammunition, but can altered to hold different types of large ammunition by using it.",
+    "ammo_type" : "h_projectile",
+    "capacity" : 100,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_hbolt",
+      "msg" : "You fiddle with the rack a bit."
+    }
+  }, {
+    "id" : "blaze_mag_hbolt",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_large",
+    "name" : "ballista rack",
+    "description" : "A container meant to hold ammunition for large improvised weapons. This one is a rather complex loader for ballista bolts, but can altered to hold different types of large ammunition by using it.",
+    "ammo_type" : "hbolt",
+    "capacity" : 100,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_harpoon",
+      "msg" : "You fiddle with the rack a bit."
+    }
+  }, {
+    "id" : "blaze_mag_harpoon",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_large",
+    "name" : "harpoon rack",
+    "description" : "A container meant to hold ammunition for large improvised weapons. This one is a rather complex loader for harpoons, but can altered to hold different types of large ammunition by using it.",
+    "ammo_type" : "harpoon",
+    "capacity" : 200,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_rail",
+      "msg" : "You fiddle with the rack a bit."
+    }
+  }, {
+    "id" : "blaze_mag_rail",
+    "type" : "MAGAZINE",
+    "copy-from" : "blaze_mag_large",
+    "name" : "harpoon rack",
+    "description" : "A container meant to hold ammunition for large improvised weapons. This one is a rather complex loader for harpoons, but can altered to hold different types of large ammunition by using it.",
+    "ammo_type" : "metal_rail",
+    "capacity" : 100,
+    "use_action" : {
+      "type" : "transform",
+      "target" : "blaze_mag_bolt",
+      "msg" : "You fiddle with the rack a bit."
+    }
+  }
+]

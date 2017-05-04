@@ -1,0 +1,1102 @@
+[{
+    "id" : "pebble",
+    "type" : "AMMO",
+    "name" : "pebble",
+    "description" : "A handful of pebbles, useful as ammunition for slings or slingshots.",
+    "weight" : 5,
+    "volume" : 1,
+    "price" : 100,
+    "to_hit" : 0,
+    "bashing" : 1,
+    "material" : "stone",
+    "symbol" : "=",
+    "color" : "light_gray",
+    "count" : 25,
+    "ammo_type" : "pebble",
+    "range" : 10,
+    "damage" : 2,
+    "pierce" : 0,
+    "dispersion" : 14,
+    "recoil" : 0,
+    "effects" : ["NEVER_MISFIRES"]
+  }, {
+    "id" : "mounted_m1918",
+    "type" : "vehicle_part",
+    "name" : "manual BAR",
+    "item" : "m1918",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "brown",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m1918",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "m249",
+    "type" : "vehicle_part",
+    "name" : "manual M249",
+    "item" : "m249",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "cyan",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m249",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "flamethrower",
+    "type" : "vehicle_part",
+    "name" : "manual flamethrower",
+    "item" : "flamethrower",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "dark_gray",
+    "broken_color" : "dark_gray",
+    "difficulty" : 5,
+    "durability" : 400,
+    "range" : 5,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "flamethrower",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL", "USE_TANKS"]
+  }, {
+    "id" : "plasma_gun",
+    "type" : "vehicle_part",
+    "name" : "manual plasma gun",
+    "item" : "plasma_rifle",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "light_blue",
+    "broken_color" : "light_blue",
+    "difficulty" : 8,
+    "durability" : 400,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "plasma_rifle",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "fusion_gun",
+    "type" : "vehicle_part",
+    "name" : "manual fusion gun",
+    "item" : "ftk93",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "magenta",
+    "broken_color" : "magenta",
+    "difficulty" : 8,
+    "durability" : 400,
+    "size" : 10,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "ftk93",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "laser_rifle",
+    "type" : "vehicle_part",
+    "name" : "manual A7 laser rifle",
+    "item" : "laser_rifle",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "magenta",
+    "broken_color" : "magenta",
+    "difficulty" : 8,
+    "durability" : 400,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "laser_rifle",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET"]
+  }, {
+    "id" : "mounted_browning",
+    "type" : "vehicle_part",
+    "name" : "manual M2 Browning",
+    "item" : "m2browning",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 5,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m2browning",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_m240",
+    "type" : "vehicle_part",
+    "name" : "manual M240",
+    "item" : "m240",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "cyan",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m240",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_m60",
+    "type" : "vehicle_part",
+    "name" : "manual M60",
+    "item" : "m60",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "cyan",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m60",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_abzats",
+    "type" : "vehicle_part",
+    "name" : "manual auto-shotgun",
+    "item" : "abzats",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 5,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "abzats",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_m134",
+    "type" : "vehicle_part",
+    "name" : "manual M134D-H Minigun",
+    "item" : "m134",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 7,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m134",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_mk19",
+    "type" : "vehicle_part",
+    "name" : "manual Mark 19",
+    "item" : "mark19",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 5,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "mark19",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_rm614",
+    "type" : "vehicle_part",
+    "name" : "manual RM614 LMG",
+    "item" : "rm614_lmg",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "white",
+    "broken_color" : "light_gray",
+    "difficulty" : 6,
+    "durability" : 450,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "rm614_lmg",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "mounted_rm298",
+    "type" : "vehicle_part",
+    "name" : "manual RM298 HMG",
+    "item" : "rm298",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "white",
+    "broken_color" : "light_gray",
+    "difficulty" : 6,
+    "durability" : 500,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "rm298",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "MANUAL"]
+  }, {
+    "id" : "watercannon",
+    "type" : "vehicle_part",
+    "name" : "water cannon",
+    "item" : "watercannon",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "blue",
+    "broken_color" : "blue",
+    "difficulty" : 5,
+    "durability" : 400,
+    "range" : 7,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "watercannon",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "USE_TANKS"]
+  }, {
+    "id" : "auto_m1918",
+    "type" : "vehicle_part",
+    "name" : "BAR turret",
+    "item" : "m1918",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "brown",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m1918",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "am249",
+    "type" : "vehicle_part",
+    "name" : "M249 turret",
+    "item" : "m249",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "cyan",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m249",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "aplasma_gun",
+    "type" : "vehicle_part",
+    "name" : "plasma turret",
+    "item" : "plasma_rifle",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "light_blue",
+    "broken_color" : "light_blue",
+    "difficulty" : 8,
+    "durability" : 400,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "plasma_rifle",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT", "USE_TANKS"]
+  }, {
+    "id" : "afusion_gun",
+    "type" : "vehicle_part",
+    "name" : "fusion turret",
+    "item" : "ftk93",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "magenta",
+    "broken_color" : "magenta",
+    "difficulty" : 8,
+    "durability" : 400,
+    "size" : 10,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "ftk93",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "am2browning",
+    "type" : "vehicle_part",
+    "name" : "M2 Browning turret",
+    "item" : "m2browning",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 5,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m2browning",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_m240",
+    "type" : "vehicle_part",
+    "name" : "M240 turret",
+    "item" : "m240",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "cyan",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m240",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_m60",
+    "type" : "vehicle_part",
+    "name" : "M60 turret",
+    "item" : "m60",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "cyan",
+    "broken_color" : "cyan",
+    "difficulty" : 4,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m60",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_abzats",
+    "type" : "vehicle_part",
+    "name" : "auto-shotgun turret",
+    "item" : "abzats",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 5,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "abzats",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_m134",
+    "type" : "vehicle_part",
+    "name" : "M134D-H Minigun turret",
+    "item" : "m134",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 7,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "m134",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_mk19",
+    "type" : "vehicle_part",
+    "name" : "Mark 19 turret",
+    "item" : "mark19",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "green",
+    "broken_color" : "green",
+    "difficulty" : 5,
+    "durability" : 400,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "mark19",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_rm614",
+    "type" : "vehicle_part",
+    "name" : "RM614 turret",
+    "item" : "rm614_lmg",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "white",
+    "broken_color" : "light_gray",
+    "difficulty" : 6,
+    "durability" : 450,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "rm614_lmg",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "auto_rm298",
+    "type" : "vehicle_part",
+    "name" : "RM298 turret",
+    "item" : "rm298",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "white",
+    "broken_color" : "light_gray",
+    "difficulty" : 6,
+    "durability" : 500,
+    "size" : 40,
+    "range" : 12,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "rm298",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
+  }, {
+    "id" : "awatercannon",
+    "type" : "vehicle_part",
+    "name" : "water cannon turret",
+    "item" : "watercannon",
+    "location" : "on_roof",
+    "symbol" : "t",
+    "broken_symbol" : "#",
+    "color" : "blue",
+    "broken_color" : "blue",
+    "difficulty" : 5,
+    "durability" : 400,
+    "range" : 7,
+    "damage_modifier" : 80,
+    "breaks_into" : [{
+        "item" : "watercannon",
+        "prob" : 50
+      }
+    ],
+    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT", "USE_TANKS"]
+  }, {
+    "id" : "mininuke_launcher",
+    "type" : "GUN",
+    "name" : "mininuke launcher",
+    "description" : "A powerful handheld spring mortar handcrafted from scrap.  Made to launch modified handheld nuclear weapons, it is an exceedingly powerful weapon.",
+    "weight" : 11260,
+    "volume" : 11,
+    "price" : 750000,
+    "to_hit" : -1,
+    "bashing" : 12,
+    "material" : ["aluminum", "wood"],
+    "symbol" : "(",
+    "color" : "dark_gray",
+    "ammo" : "h_projectile",
+    "skill" : "launcher",
+    "range" : 24,
+    "dispersion" : 600,
+    "sight_dispersion" : 150,
+    "recoil" : 300,
+    "durability" : 7,
+    "clip_size" : 1,
+    "reload" : 800,
+    "flags" : ["RELOAD_ONE", "STR_RELOAD", "NEVER_JAMS"]
+  }, {
+    "id" : "flamethrower",
+    "copy-from" : "flamethrower",
+    "type" : "GUN",
+    "name" : "flamethrower",
+    "extend" : {
+      "ammo_effects" : ["STREAM"],
+      "flags" : ["FIRE_20"]
+    },
+    "delete" : {
+      "flags" : ["FIRE_100"]
+    }
+  }, {
+    "id" : "flamethrower_crude",
+    "copy-from" : "flamethrower_crude",
+    "type" : "GUN",
+    "name" : "spraycan flamethrower",
+    "extend" : {
+      "ammo_effects" : ["STREAM"],
+      "flags" : ["FIRE_20"]
+    },
+    "delete" : {
+      "flags" : ["FIRE_100"]
+    }
+  }, {
+    "id" : "flamethrower_simple",
+    "copy-from" : "flamethrower_simple",
+    "type" : "GUN",
+    "name" : "simple flamethrower",
+    "extend" : {
+      "ammo_effects" : ["STREAM"],
+      "flags" : ["FIRE_20"]
+    },
+    "delete" : {
+      "flags" : ["FIRE_100"]
+    }
+  }, {
+    "id" : "rm451_flamethrower",
+    "copy-from" : "rm451_flamethrower",
+    "type" : "GUN",
+    "name" : "RM451 flamethrower",
+    "extend" : {
+      "ammo_effects" : ["STREAM"],
+      "flags" : ["FIRE_20"]
+    },
+    "delete" : {
+      "flags" : ["FIRE_100"]
+    }
+  }, {
+    "type" : "terrain",
+    "id" : "t_cvdmachine",
+    "name" : "CVD control panel",
+    "symbol" : "&",
+    "color" : "cyan",
+    "move_cost" : 0,
+    "flags" : ["TRANSPARENT", "NOITEM", "PERMEABLE"],
+    "crafting_pseudo_item" : "cvd_machine",
+    "examine_action" : "cvdmachine",
+    "bash" : {
+      "str_min" : 8,
+      "str_max" : 150,
+      "sound" : "crunch!",
+      "sound_fail" : "whack!",
+      "ter_set" : "t_console_broken",
+      "items" : [{
+          "item" : "processor",
+          "prob" : 25
+        }, {
+          "item" : "RAM",
+          "count" : [0, 2],
+          "prob" : 50
+        }, {
+          "item" : "cable",
+          "charges" : [1, 2],
+          "prob" : 50
+        }, {
+          "item" : "small_lcd_screen",
+          "prob" : 25
+        }, {
+          "item" : "e_scrap",
+          "count" : [1, 4],
+          "prob" : 50
+        }, {
+          "item" : "circuit",
+          "count" : [0, 2],
+          "prob" : 50
+        }, {
+          "item" : "power_supply",
+          "prob" : 25
+        }, {
+          "item" : "amplifier",
+          "prob" : 25
+        }, {
+          "item" : "plastic_chunk",
+          "count" : [4, 10],
+          "prob" : 50
+        }, {
+          "item" : "scrap",
+          "count" : [2, 6],
+          "prob" : 50
+        }
+      ]
+    }
+  }, {
+    "id" : "cvd_machine",
+    "copy-from" : "fake_item",
+    "type" : "TOOL",
+    "name" : "cvd machine"
+  }, {
+    "id" : "gasoline",
+    "type" : "AMMO",
+    "category" : "fuel",
+    "name" : "gasoline",
+    "name_plural" : "gasoline",
+    "description" : "Gasoline is a highly flammable liquid.  When under pressure, it has the potential for violent explosion.",
+    "weight" : 1,
+    "volume" : 1,
+    "price" : 40,
+    "price_postapoc" : 800,
+    "phase" : "liquid",
+    "container" : "jerrycan",
+    "material" : "hydrocarbons",
+    "symbol" : "=",
+    "color" : "light_red",
+    "count" : 250,
+    "stack_size" : 250,
+    "ammo_type" : ["gasoline", "flammable"],
+    "range" : 4,
+    "damage" : 5,
+    "pierce" : 5,
+    "fuel": {
+      "energy": 34.2
+    },
+
+    "effects" : ["FLAME", "INCENDIARY", "NEVER_MISFIRES"],
+    "explosion" : {
+      "power" : 10,
+      "distance_factor" : 0.01,
+      "shrapnel" : {
+        "count" : 5,
+        "mass" : 1,
+        "drop" : "gasoline",
+        "recovery" : 100
+      }
+    }
+  }, {
+    "type" : "COMESTIBLE",
+    "id" : "meat_tainted",
+    "category" : "other",
+    "name" : "chunk of tainted meat",
+    "name_plural" : "chunks of tainted meat",
+    "weight" : 238,
+    "color" : "red",
+    "spoils_in" : 4,
+    "use_action" : "POISON",
+    "comestible_type" : "FOOD",
+    "symbol" : "%",
+    "nutrition" : 20,
+    "description" : "Meat that's obviously unhealthy.  You could eat it, but it will poison you.",
+    "price" : 0,
+    "energy" : 10,
+    "fuel": {
+      "energy": 10
+    },
+    "material" : "flesh",
+    "flags" : "TRADER_AVOID",
+    "volume" : 1,
+    "fun" : -10,
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    }
+  }, {
+    "id" : "meat",
+    "copy-from" : "flesh",
+    "type" : "COMESTIBLE",
+    "name" : "chunk of meat",
+    "name_plural" : "chunks of meat",
+    "description" : "Freshly butchered meat.  You could eat it raw, but cooking it is better.",
+    "weight" : 200,
+    "volume" : 1,
+    "price" : 500,
+    "spoils_in" : 24,
+    "calories" : 250,
+    "healthy" : -1,
+    "fun" : -10,
+    "energy" : 10,
+    "fuel": {
+      "energy": 10
+    },
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    }
+  }, {
+    "id" : "offal",
+    "copy-from" : "meat",
+    "type" : "COMESTIBLE",
+    "name" : "raw offal",
+    "description" : "Uncooked internal organs and entrails.  Unappealing to eat but filled with essential vitamins.",
+    "proportional" : {
+      "calories" : 0.5,
+      "parasites" : 2.0
+    },
+    "relative" : {
+      "vitamins" : [["vitA", 5]],
+      "fun" : -5
+    },
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+    "fuel": {
+      "energy": 50
+    },
+    "energy" : 50
+  }, {
+    "type" : "COMESTIBLE",
+    "id" : "bone",
+    "category" : "spare_parts",
+    "name" : "bone",
+    "weight" : 225,
+    "color" : "white",
+    "comestible_type" : "FOOD",
+    "symbol" : "%",
+    "healthy" : -1,
+    "nutrition" : 4,
+    "description" : "A bone from some creature or other.  Could be eaten or used to make some stuff, like needles.",
+    "price" : 0,
+    "material" : "bone",
+    "volume" : 1,
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+    "fuel": {
+      "energy": 20
+    },
+    "energy" : 20
+  }, {
+    "type" : "COMESTIBLE",
+    "id" : "plant_sac",
+    "name" : "fluid sac",
+    "weight" : 278,
+    "color" : "light_green",
+    "comestible_type" : "FOOD",
+    "symbol" : "%",
+    "quench" : 18,
+    "healthy" : -1,
+    "nutrition" : 4,
+    "description" : "A fluid bladder from a plant based lifeform.  Not very nutritious, but fine to eat anyway.",
+    "price" : 0,
+    "material" : "veggy",
+    "volume" : 1,
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+    "fuel": {
+      "energy": 10
+    },
+    "energy" : 10
+  }, {
+    "type" : "COMESTIBLE",
+    "id" : "fat",
+    "name" : "chunk of fat",
+    "name_plural" : "chunks of fat",
+    "weight" : 212,
+    "color" : "pink",
+    "spoils_in" : 168,
+    "comestible_type" : "FOOD",
+    "symbol" : "%",
+    "quench" : -10,
+    "healthy" : -3,
+    "nutrition" : 10,
+    "description" : "Freshly butchered fat.  You could eat it raw, but it is better used as an ingredient in other foods or projects.",
+    "price" : 0,
+    "material" : "flesh",
+    "volume" : 1,
+    "stack_size" : 1,
+    "fun" : -20,
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+    "fuel": {
+      "energy": 50
+    },
+    "energy" : 50
+  }, {
+    "id" : "hstomach",
+    "copy-from" : "stomach",
+    "type" : "COMESTIBLE",
+    "name" : "human stomach",
+    "description" : "The stomach of a human.  It is surprisingly durable.",
+    "material" : "hflesh",
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+    "fuel": {
+      "energy": 10
+    },
+    "energy" : 10
+  }, {
+    "id" : "fish",
+    "copy-from" : "flesh",
+    "type" : "COMESTIBLE",
+    "name" : "fillet of fish",
+    "name_plural" : "fillets of fish",
+    "description" : "Freshly caught fish.  Makes a passable meal raw.",
+    "weight" : 200,
+    "volume" : 1,
+    "price" : 500,
+    "spoils_in" : 12,
+    "calories" : 200,
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+    "fuel": {
+      "energy": 10
+    },
+    "energy" : 10
+  }, {
+    "id" : "hstomach_large",
+    "copy-from" : "hstomach",
+    "type" : "COMESTIBLE",
+    "name" : "large human stomach",
+    "description" : "The stomach of a large humanoid creature.  It is surprisingly durable.",
+    "proportional" : {
+      "weight" : 2.0,
+      "volume" : 2.0,
+      "price" : 1.5,
+      "calories" : 2.0
+    },
+    "ammo_data" : {
+      "ammo_type" : "bfeed"
+    },
+     "fuel": {
+      "energy": 20
+    },
+     "energy" : 20
+  }, {
+    "id" : "water",
+    "type" : "COMESTIBLE",
+    "category" : "food",
+    "fuel": {
+  "energy": 5   },
+    "energy" : 5,
+    "name" : "water",
+    "name_plural" : "water",
+    "description" : "Water, the stuff of life, the best thirst-quencher available..",
+    "weight" : 250,
+    "volume" : 1,
+    "price" : 50,
+    "phase" : "liquid",
+    "container" : "bottle_plastic",
+    "symbol" : "~",
+    "color" : "light_cyan",
+    "comestible_type" : "DRINK",
+    "quench" : 50,
+    "ammo_data" : {
+      "ammo_type" : "water"
+    },
+    "explosion" : {
+      "power" : 30,
+      "distance_factor" : 0.5,
+      "shrapnel" : {
+        "count" : 100,
+        "mass" : 3,
+        "drop" : "water",
+        "recovery" : 100
+      }
+    },
+    "flags" : ["EATEN_COLD"]
+    }, {
+    "id" : "diesel",
+    "type" : "AMMO",
+    "name" : "diesel",
+    "name_plural" : "diesel",
+    "description" : "Petroleum-based fuel made from a byproduct of the gasoline making process.",
+    "category" : "fuel",
+    "weight" : 1,
+    "volume" : 1,
+    "price" : 50,
+    "price_postapoc" : 500,
+    "count" : 250,
+    "stack_size" : 250,
+    "phase" : "liquid",
+    "container" : "jerrycan",
+    "material" : "hydrocarbons",
+    "symbol" : "=",
+    "color" : "green",
+    "ammo_type" : ["diesel", "flammable"],
+    "damage" : 5,
+    "range" : 4,
+    "pierce" : 5,
+    "fuel": {
+      "energy": 35.8
+    }
+,
+    "effects" : ["FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES"],
+    "explosion" : {
+      "power" : 10,
+      "distance_factor" : 0.01,
+      "shrapnel" : {
+        "count" : 5,
+        "mass" : 1,
+        "drop" : "diesel",
+        "recovery" : 100
+      }
+    }
+  }, {
+    "id" : "vortex_stone",
+    "type" : "TOOL",
+    "name" : "vortex stone",
+    "description" : "This is a stone with spirals all over it, and holes around its perimeter.  Though it is fairly large, it weighs next to nothing.  Air seems to gather around it.",
+    "weight" : 1,
+    "volume" : 1,
+    "price" : 300000,
+    "bashing" : 6,
+    "material" : "stone",
+    "symbol" : ";",
+    "color" : "light_gray",
+    "initial_charges" : 1,
+    "max_charges" : 1,
+    "charges_per_use" : 1,
+    "use_action" : "VORTEX",
+    "book_data" : {
+      "max_level" : 0,
+      "intelligence" : 0,
+      "time" : 1,
+      "fun" : 0,
+      "skill" : "fabrication",
+      "required_level" : 1
+    }
+  }, {
+    "type" : "GENERIC",
+    "id" : "spiral_stone",
+    "symbol" : "*",
+    "color" : "light_gray",
+    "name" : "spiral stone",
+    "description" : "A rock the size of your fist.  It is covered with intricate spirals; it is impossible to tell whether they are carved, naturally formed, or some kind of fossil.",
+    "price" : 20000,
+    "price_postapoc" : 1000,
+    "material" : "stone",
+    "weight" : 493,
+    "volume" : 1,
+    "bashing" : 6,
+    "to_hit" : -1,
+    "book_data" : {
+      "max_level" : 0,
+      "intelligence" : 0,
+      "time" : 1,
+      "fun" : 0,
+      "skill" : "fabrication",
+      "required_level" : 1
+    }
+  }, {
+    "type" : "COMESTIBLE",
+    "id" : "slime_scrap",
+    "category" : "other",
+    "name" : "blob glob",
+    "weight" : 238,
+    "color" : "dkgray",
+    "use_action" : "POISON",
+    "comestible_type" : "FOOD",
+    "symbol" : "%",
+    "nutrition" : 20,
+    "description" : "A little hunk of glop that fell off a blob monster.  It doesn't seem hostile, but it does wiggle occasionally.",
+    "price" : 0,
+    "volume" : 1,
+    "fun" : -10,
+    "ammo_data" : {
+      "ammo_type" : "slime_scrap"
+    },
+    "fuel": {
+      "energy": 100
+    },
+
+    "energy" : 100
+  }
+]
