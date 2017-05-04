@@ -673,12 +673,13 @@
       "flags" : ["FIRE_100"]
     }
   }, {
-    "type" : "terrain",
+    "type" : "furniture",
     "id" : "t_cvdmachine",
     "name" : "CVD control panel",
     "symbol" : "&",
     "color" : "cyan",
-    "move_cost" : 0,
+    "move_cost_mod": -1,
+    "required_str": -1,
     "flags" : ["TRANSPARENT", "NOITEM", "PERMEABLE"],
     "crafting_pseudo_item" : "cvd_machine",
     "examine_action" : "cvdmachine",
@@ -687,7 +688,6 @@
       "str_max" : 150,
       "sound" : "crunch!",
       "sound_fail" : "whack!",
-      "ter_set" : "t_console_broken",
       "items" : [{
           "item" : "processor",
           "prob" : 25
@@ -964,7 +964,8 @@
     "type" : "COMESTIBLE",
     "category" : "food",
     "fuel": {
-  "energy": 5   },
+      "energy": 5
+    },
     "energy" : 5,
     "name" : "water",
     "name_plural" : "water",

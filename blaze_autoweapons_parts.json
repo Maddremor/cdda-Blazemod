@@ -1,1665 +1,1357 @@
-[{
-    "abstract" : "blaze_turret",
-    "type" : "vehicle_part",
-    "location" : "on_roof",
-    "symbol" : "t",
-    "broken_symbol" : "#",
-    "durability" : 400,
-    "damage_modifier" : 80,
-    "flags" : ["FOLDABLE", "TURRET", "NEEDS_BATTERY_MOUNT", "TOOL_NONE"]
-  }, {
-    "id" : "TDI",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "TDI Vector turret",
-    "item" : "TDI",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "TDI",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "abolter",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "storm bolter turret",
-    "item" : "bolter",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "bolter",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "acangun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "slingshot cannon turret",
-    "item" : "cangun",
-    "color" : "brown",
-    "broken_color" : "brown",
-    "difficulty" : 5,
-    "range" : 25,
-    "folded_volume" : 22,
-    "breaks_into" : [{
-        "item" : "cangun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "acr",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Bushmaster ACR turret",
-    "item" : "acr",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "acr",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "agattler1",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "rotary cannon turret",
-    "item" : "gattler",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 15,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "gattler",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ak47",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "AK47 turret",
-    "item" : "ak47",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "ak47",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ak74",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "AK74 turret",
-    "item" : "ak74",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "ak74",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "alasgun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "laser cannon turret",
-    "item" : "lasgun",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 6,
-    "range" : 21,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "lasgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "alasgunp",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "pulse laser turret",
-    "item" : "lasgunp",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 6,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "lasgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "alasgunx",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "turbolaser turret",
-    "item" : "lasgunx",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "difficulty" : 6,
-    "range" : 21,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "lasgunx",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "american_180",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "American-180 turret",
-    "item" : "american_180",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "american_180",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "an94",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "AN94 turret",
-    "item" : "an94",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "an94",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "anailer",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "perforator turret",
-    "item" : "nailer",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 18,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "nailer",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "aneedler",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "needler turret",
-    "item" : "needler",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 5,
-    "range" : 15,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "needler",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ar15",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "AR-15 turret",
-    "item" : "ar15",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "ar15",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "arailturret",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "hypervelocity driver turret",
-    "item" : "railturret",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "difficulty" : 5,
-    "range" : 14,
-    "folded_volume" : 16,
-    "breaks_into" : [{
-        "item" : "railturret",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "aripper",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "ripper turret",
-    "item" : "ripper",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "power" : -25,
-    "range" : 15,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "ripper",
-        "prob" : 50
-      }
-    ],
-    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT", "TOOL_NONE", "FOLDABLE", "EXTRA_DRAG"]
-  }, {
-    "id" : "ascorpion",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "scorpion turret",
-    "item" : "scorpion",
-    "color" : "brown",
-    "broken_color" : "brown",
-    "difficulty" : 4,
-    "range" : 20,
-    "folded_volume" : 20,
-    "breaks_into" : [{
-        "item" : "scorpion",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ashardgun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "splintergun turret",
-    "item" : "shardgun",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 6,
-    "range" : 6,
-    "folded_volume" : 14,
-    "breaks_into" : [{
-        "item" : "shardgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ateslagun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "tesla turret",
-    "item" : "teslagun",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 3,
-    "range" : 12,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "teslagun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "atiharturret",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "avalanche turret",
-    "item" : "tiharturret",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "range" : 15,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "tiharturret",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "bigun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "autoshotgun turret",
-    "item" : "bigun",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "bigun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "blunderbuss",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "blunderbuss turret",
-    "item" : "blunderbuss",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 6,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "blunderbuss",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "browning_blr",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Browning BLR turret",
-    "item" : "browning_blr",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "browning_blr",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "calico",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Calico M960 turret",
-    "item" : "calico",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 6,
-    "breaks_into" : [{
-        "item" : "calico",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "carbine_flintlock",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "flintlock carbine turret",
-    "item" : "carbine_flintlock",
-    "symbol" : "+",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "durability" : 240,
-    "range" : 8,
-    "folded_volume" : 5,
-    "breaks_into" : [{
-        "item" : "carbine_flintlock",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "coilgun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "coilgun turret",
-    "item" : "coilgun",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 10,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "coilgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "cx4",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Cx4 Storm turret",
-    "item" : "cx4",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "cx4",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "flamethrower1",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "simple flamethrower turret",
-    "item" : "flamethrower_simple",
-    "color" : "red",
-    "broken_color" : "red",
-    "difficulty" : 5,
-    "range" : 5,
-    "folded_volume" : 24,
-    "breaks_into" : [{
-        "item" : "flamethrower_simple",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "flamethrower2",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "flamethrower turret",
-    "item" : "flamethrower",
-    "color" : "red",
-    "broken_color" : "red",
-    "difficulty" : 4,
-    "range" : 8,
-    "folded_volume" : 19,
-    "breaks_into" : [{
-        "item" : "flamethrower",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "flamethrower3",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM451 flamethrower turret",
-    "item" : "rm451_flamethrower",
-    "color" : "red",
-    "broken_color" : "red",
-    "difficulty" : 4,
-    "range" : 12,
-    "folded_volume" : 19,
-    "breaks_into" : [{
-        "item" : "rm451_flamethrower",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "fn_fal",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "FN FAL turret",
-    "item" : "fn_fal",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "fn_fal",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "fn_p90",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "FN P90 turret",
-    "item" : "fn_p90",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 6,
-    "breaks_into" : [{
-        "item" : "fn_p90",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "h&k416a5",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K 416A5 turret",
-    "item" : "h&k416a5",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "h&k416a5",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "heavy_rail_rifle",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "heavy rail rifle turret",
-    "item" : "heavy_rail_rifle",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 18,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "heavy_rail_rifle",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "hk_g3",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K G3 turret",
-    "item" : "hk_g3",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 3,
-    "breaks_into" : [{
-        "item" : "hk_g3",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "hk_g36",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K G36 turret",
-    "item" : "hk_g36",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "hk_g36",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "hk_g80",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K G80 turret",
-    "item" : "hk_g80",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 25,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "hk_g80",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "hk_mp5",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K MP5 turret",
-    "item" : "hk_mp5",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "hk_mp5",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "hk_mp7",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K MP7 turret",
-    "item" : "hk_mp7",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "hk_mp7",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "hk_ump45",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "H&K UMP45 turret",
-    "item" : "hk_ump45",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "hk_ump45",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ksg",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Kel-Tec KSG turret",
-    "item" : "ksg",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "ksg",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_base_223",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "L523 turret",
-    "item" : "l_base_223",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 6,
-    "breaks_into" : [{
-        "item" : "l_base_223",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_car_223",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "L523-CAR turret",
-    "item" : "l_car_223",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 8,
-    "breaks_into" : [{
-        "item" : "l_car_223",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_def_12",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "L12 Defender turret",
-    "item" : "l_def_12",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 6,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "l_def_12",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_dsr_223",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "L523-DSR turret",
-    "item" : "l_dsr_223",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 21,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "l_dsr_223",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_lmg_223",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "L523-LMG turret",
-    "item" : "l_lmg_223",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 21,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "l_lmg_223",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_long_45",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Long Ranger turret",
-    "item" : "l_long_45",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 13,
-    "breaks_into" : [{
-        "item" : "l_long_45",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "l_mbr_223",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "L523-MBR turret",
-    "item" : "l_mbr_223",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "l_mbr_223",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "launcher_simple",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "40mm launcher turret",
-    "item" : "launcher_simple",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 25,
-    "folded_volume" : 5,
-    "breaks_into" : [{
-        "item" : "launcher_simple",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m1014",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M1014 shotgun turret",
-    "item" : "m1014",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "m1014",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m107a1",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Barrett M107A1 turret",
-    "item" : "m107a1",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 25,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "m107a1",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m14ebr",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M14-EBR turret",
-    "item" : "m14ebr",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 21,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "m14ebr",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m1a",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M1A turret",
-    "item" : "m1a",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "m1a",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m2010",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M2010 ESR turret",
-    "item" : "m2010",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 21,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "m2010",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m27iar",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M27 IAR turret",
-    "item" : "m27iar",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 21,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "m27iar",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m2browning_sawn",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : ".50 caliber turret",
-    "item" : "m2browning_sawn",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 25,
-    "folded_volume" : 14,
-    "breaks_into" : [{
-        "item" : "m2browning_sawn",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m320",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M320 turret",
-    "item" : "m320",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 25,
-    "folded_volume" : 3,
-    "breaks_into" : [{
-        "item" : "m320",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m4a1",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M4A1 turret",
-    "item" : "m4a1",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "m4a1",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m60",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M60 turret",
-    "item" : "m60",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 16,
-    "breaks_into" : [{
-        "item" : "m60",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "m79",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "M79 turret",
-    "item" : "m79",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 25,
-    "folded_volume" : 4,
-    "breaks_into" : [{
-        "item" : "m79",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "mac_10",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "MAC-10 turret",
-    "item" : "mac_10",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 4,
-    "breaks_into" : [{
-        "item" : "mac_10",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "marlin_9a",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Marlin 39A turret",
-    "item" : "marlin_9a",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "marlin_9a",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "mgl",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Milkor MGL turret",
-    "item" : "mgl",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 25,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "mgl",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "mossberg_500",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Mossberg 500 turret",
-    "item" : "mossberg_500",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "mossberg_500",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "nailrifle",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "nail rifle turret",
-    "item" : "nailrifle",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "nailrifle",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "needlegun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM216 SPIW turret",
-    "item" : "needlegun",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "needlegun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "pipe_double_shotgun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "double pipe shotgun turret",
-    "item" : "pipe_double_shotgun",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 6,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "pipe_double_shotgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "pipe_shotgun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "pipe shotgun turret",
-    "item" : "pipe_shotgun",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 9,
-    "folded_volume" : 3,
-    "breaks_into" : [{
-        "item" : "pipe_shotgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rebar_rifle",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "rail rifle turret",
-    "item" : "rebar_rifle",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 18,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "rebar_rifle",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "remington_700",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Remington 700 turret",
-    "item" : "remington_700",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "remington_700",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "remington_870",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Remington 870 turret",
-    "item" : "remington_870",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "remington_870",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "repeatingcrossbow",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "repeating crossbow turret",
-    "item" : "rep_crossbow",
-    "color" : "brown",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "range" : 8,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "rep_crossbow",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "revolver_shotgun",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "revolver shotgun turret",
-    "item" : "revolver_shotgun",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 6,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "revolver_shotgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rifle_22",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : ".22 pipe rifle turret",
-    "item" : "rifle_22",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 12,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "rifle_22",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rifle_308",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : ".308 pipe rifle turret",
-    "item" : "rifle_308",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 12,
-    "folded_volume" : 8,
-    "breaks_into" : [{
-        "item" : "rifle_308",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rifle_9mm",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "9mm pipe rifle turret",
-    "item" : "rifle_9mm",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 12,
-    "folded_volume" : 8,
-    "breaks_into" : [{
-        "item" : "rifle_9mm",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rifle_flintlock",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "flintlock rifle turret",
-    "item" : "rifle_flintlock",
-    "symbol" : "+",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "durability" : 240,
-    "range" : 8,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "rifle_flintlock",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm11b_sniper_rifle",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM11B scout rifle turret",
-    "item" : "rm11b_sniper_rifle",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 21,
-    "folded_volume" : 13,
-    "breaks_into" : [{
-        "item" : "rm11b_sniper_rifle",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm2000_smg",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM2000 SMG turret",
-    "item" : "rm2000_smg",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 6,
-    "breaks_into" : [{
-        "item" : "rm2000_smg",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm360_carbine",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM360 carbine turret",
-    "item" : "rm360_carbine",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 6,
-    "breaks_into" : [{
-        "item" : "rm360_carbine",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm51_assault_rifle",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM51 assault rifle turret",
-    "item" : "rm51_assault_rifle",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 18,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "rm51_assault_rifle",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm614_lmg",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM614 LMG turret",
-    "item" : "rm614_lmg",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "rm614_lmg",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm802",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM802 turret",
-    "item" : "rm802",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 21,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "rm802",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rm88_battle_rifle",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "RM88 battle rifle turret",
-    "item" : "rm88_battle_rifle",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 18,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "rm88_battle_rifle",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rslauncher",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "rotary speargun turret",
-    "item" : "rslauncher",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "range" : 15,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "rslauncher",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ruger_1022",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Ruger 10/22 turret",
-    "item" : "ruger_1022",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "ruger_1022",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ruger_mini",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Ruger mini-14 turret",
-    "item" : "ruger_mini",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 9,
-    "breaks_into" : [{
-        "item" : "ruger_mini",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "saiga_12",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Saiga 12 turret",
-    "item" : "saiga_12",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 6,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "saiga_12",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "savage_111f",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Savage 111F turret",
-    "item" : "savage_111f",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "savage_111f",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "scar_h",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "FN SCAR-H turret",
-    "item" : "scar_h",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 11,
-    "breaks_into" : [{
-        "item" : "scar_h",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "scar_l",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "FN SCAR-L turret",
-    "item" : "scar_l",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "scar_l",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "shotgun_d",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "double shotgun turret",
-    "item" : "shotgun_d",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 8,
-    "breaks_into" : [{
-        "item" : "shotgun_d",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "shotgun_s",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "single shotgun turret",
-    "item" : "shotgun_s",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 6,
-    "folded_volume" : 8,
-    "breaks_into" : [{
-        "item" : "shotgun_s",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "sks",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "SKS turret",
-    "item" : "sks",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "sks",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "slauncher",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "speargun turret",
-    "item" : "slauncher",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "range" : 12,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "slauncher",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "steyr_aug",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Steyr AUG turret",
-    "item" : "steyr_aug",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 7,
-    "breaks_into" : [{
-        "item" : "steyr_aug",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "surv_carbine_223",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "223 carbine turret",
-    "item" : "surv_carbine_223",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 4,
-    "range" : 15,
-    "folded_volume" : 6,
-    "breaks_into" : [{
-        "item" : "surv_carbine_223",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "survivor_special_700",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "survivor special turret",
-    "item" : "survivor_special_700",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 15,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "survivor_special_700",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "tec9",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "TEC-9 turret",
-    "item" : "tec9",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 3,
-    "breaks_into" : [{
-        "item" : "tec9",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "uzi",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "Uzi turret",
-    "item" : "uzi",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 3,
-    "range" : 10,
-    "folded_volume" : 5,
-    "breaks_into" : [{
-        "item" : "uzi",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "v29",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "V29 laser turret",
-    "item" : "v29",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 6,
-    "range" : 15,
-    "folded_volume" : 4,
-    "breaks_into" : [{
-        "item" : "v29",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "v29_cheap",
-    "copy-from" : "blaze_turret",
-    "type" : "vehicle_part",
-    "name" : "LACP laser turret",
-    "item" : "v29_cheap",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 6,
-    "range" : 10,
-    "folded_volume" : 8,
-    "breaks_into" : [{
-        "item" : "v29_cheap",
-        "prob" : 50
-      }
-    ]
+[
+  {
+    "abstract": "blaze_turret",
+    "type": "vehicle_part",
+    "location": "on_roof",
+    "symbol": "t",
+    "broken_symbol": "#",
+    "durability": 400,
+    "damage_modifier": 80,
+    "flags": [ "FOLDABLE", "TURRET", "NEEDS_BATTERY_MOUNT", "TOOL_NONE" ]
+  },
+  {
+    "id": "TDI",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "TDI Vector turret",
+    "item": "TDI",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "TDI", "prob": 50 } ]
+  },
+  {
+    "id": "abolter",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "storm bolter turret",
+    "item": "bolter",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "bolter", "prob": 50 } ]
+  },
+  {
+    "id": "acangun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "slingshot cannon turret",
+    "item": "cangun",
+    "color": "brown",
+    "broken_color": "brown",
+    "difficulty": 5,
+    "range": 25,
+    "folded_volume": 22,
+    "breaks_into": [ { "item": "cangun", "prob": 50 } ]
+  },
+  {
+    "id": "acr",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Bushmaster ACR turret",
+    "item": "acr",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "acr", "prob": 50 } ]
+  },
+  {
+    "id": "agattler1",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "rotary cannon turret",
+    "item": "gattler",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 15,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "gattler", "prob": 50 } ]
+  },
+  {
+    "id": "ak47",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "AK47 turret",
+    "item": "ak47",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "ak47", "prob": 50 } ]
+  },
+  {
+    "id": "ak74",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "AK74 turret",
+    "item": "ak74",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "ak74", "prob": 50 } ]
+  },
+  {
+    "id": "alasgun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "laser cannon turret",
+    "item": "lasgun",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 6,
+    "range": 21,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "lasgun", "prob": 50 } ]
+  },
+  {
+    "id": "alasgunp",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "pulse laser turret",
+    "item": "lasgunp",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 6,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "lasgun", "prob": 50 } ]
+  },
+  {
+    "id": "alasgunx",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "turbolaser turret",
+    "item": "lasgunx",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 6,
+    "range": 21,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "lasgunx", "prob": 50 } ]
+  },
+  {
+    "id": "american_180",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "American-180 turret",
+    "item": "american_180",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "american_180", "prob": 50 } ]
+  },
+  {
+    "id": "an94",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "AN94 turret",
+    "item": "an94",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "an94", "prob": 50 } ]
+  },
+  {
+    "id": "anailer",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "perforator turret",
+    "item": "nailer",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 18,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "nailer", "prob": 50 } ]
+  },
+  {
+    "id": "aneedler",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "needler turret",
+    "item": "needler",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 5,
+    "range": 15,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "needler", "prob": 50 } ]
+  },
+  {
+    "id": "ar15",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "AR-15 turret",
+    "item": "ar15",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "ar15", "prob": 50 } ]
+  },
+  {
+    "id": "arailturret",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "hypervelocity driver turret",
+    "item": "railturret",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 5,
+    "range": 14,
+    "folded_volume": 16,
+    "breaks_into": [ { "item": "railturret", "prob": 50 } ]
+  },
+  {
+    "id": "aripper",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "ripper turret",
+    "item": "ripper",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "power": -25,
+    "range": 15,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "ripper", "prob": 50 } ],
+    "flags": [ "TURRET", "NEEDS_BATTERY_MOUNT", "TOOL_NONE", "FOLDABLE", "EXTRA_DRAG" ]
+  },
+  {
+    "id": "ascorpion",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "scorpion turret",
+    "item": "scorpion",
+    "color": "brown",
+    "broken_color": "brown",
+    "difficulty": 4,
+    "range": 20,
+    "folded_volume": 20,
+    "breaks_into": [ { "item": "scorpion", "prob": 50 } ]
+  },
+  {
+    "id": "ashardgun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "splintergun turret",
+    "item": "shardgun",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 6,
+    "range": 6,
+    "folded_volume": 14,
+    "breaks_into": [ { "item": "shardgun", "prob": 50 } ]
+  },
+  {
+    "id": "ateslagun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "tesla turret",
+    "item": "teslagun",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 3,
+    "range": 12,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "teslagun", "prob": 50 } ]
+  },
+  {
+    "id": "atiharturret",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "avalanche turret",
+    "item": "tiharturret",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "range": 15,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "tiharturret", "prob": 50 } ]
+  },
+  {
+    "id": "bigun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "autoshotgun turret",
+    "item": "bigun",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "bigun", "prob": 50 } ]
+  },
+  {
+    "id": "blunderbuss",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "blunderbuss turret",
+    "item": "blunderbuss",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 6,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "blunderbuss", "prob": 50 } ]
+  },
+  {
+    "id": "browning_blr",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Browning BLR turret",
+    "item": "browning_blr",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "browning_blr", "prob": 50 } ]
+  },
+  {
+    "id": "calico",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Calico M960 turret",
+    "item": "calico",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 6,
+    "breaks_into": [ { "item": "calico", "prob": 50 } ]
+  },
+  {
+    "id": "carbine_flintlock",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "flintlock carbine turret",
+    "item": "carbine_flintlock",
+    "symbol": "+",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "durability": 240,
+    "range": 8,
+    "folded_volume": 5,
+    "breaks_into": [ { "item": "carbine_flintlock", "prob": 50 } ]
+  },
+  {
+    "id": "coilgun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "coilgun turret",
+    "item": "coilgun",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 10,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "coilgun", "prob": 50 } ]
+  },
+  {
+    "id": "cx4",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Cx4 Storm turret",
+    "item": "cx4",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "cx4", "prob": 50 } ]
+  },
+  {
+    "id": "flamethrower1",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "simple flamethrower turret",
+    "item": "flamethrower_simple",
+    "color": "red",
+    "broken_color": "red",
+    "difficulty": 5,
+    "range": 5,
+    "folded_volume": 24,
+    "breaks_into": [ { "item": "flamethrower_simple", "prob": 50 } ]
+  },
+  {
+    "id": "flamethrower2",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "flamethrower turret",
+    "item": "flamethrower",
+    "color": "red",
+    "broken_color": "red",
+    "difficulty": 4,
+    "range": 8,
+    "folded_volume": 19,
+    "breaks_into": [ { "item": "flamethrower", "prob": 50 } ]
+  },
+  {
+    "id": "flamethrower3",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM451 flamethrower turret",
+    "item": "rm451_flamethrower",
+    "color": "red",
+    "broken_color": "red",
+    "difficulty": 4,
+    "range": 12,
+    "folded_volume": 19,
+    "breaks_into": [ { "item": "rm451_flamethrower", "prob": 50 } ]
+  },
+  {
+    "id": "fn_fal",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "FN FAL turret",
+    "item": "fn_fal",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "fn_fal", "prob": 50 } ]
+  },
+  {
+    "id": "fn_p90",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "FN P90 turret",
+    "item": "fn_p90",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 6,
+    "breaks_into": [ { "item": "fn_p90", "prob": 50 } ]
+  },
+  {
+    "id": "h&k416a5",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K 416A5 turret",
+    "item": "h&k416a5",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "h&k416a5", "prob": 50 } ]
+  },
+  {
+    "id": "heavy_rail_rifle",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "heavy rail rifle turret",
+    "item": "heavy_rail_rifle",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 18,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "heavy_rail_rifle", "prob": 50 } ]
+  },
+  {
+    "id": "hk_g3",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K G3 turret",
+    "item": "hk_g3",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 3,
+    "breaks_into": [ { "item": "hk_g3", "prob": 50 } ]
+  },
+  {
+    "id": "hk_g36",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K G36 turret",
+    "item": "hk_g36",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "hk_g36", "prob": 50 } ]
+  },
+  {
+    "id": "hk_g80",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K G80 turret",
+    "item": "hk_g80",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 25,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "hk_g80", "prob": 50 } ]
+  },
+  {
+    "id": "hk_mp5",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K MP5 turret",
+    "item": "hk_mp5",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "hk_mp5", "prob": 50 } ]
+  },
+  {
+    "id": "hk_mp7",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K MP7 turret",
+    "item": "hk_mp7",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "hk_mp7", "prob": 50 } ]
+  },
+  {
+    "id": "hk_ump45",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "H&K UMP45 turret",
+    "item": "hk_ump45",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "hk_ump45", "prob": 50 } ]
+  },
+  {
+    "id": "ksg",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Kel-Tec KSG turret",
+    "item": "ksg",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "ksg", "prob": 50 } ]
+  },
+  {
+    "id": "l_base_223",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "L523 turret",
+    "item": "l_base_223",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 6,
+    "breaks_into": [ { "item": "l_base_223", "prob": 50 } ]
+  },
+  {
+    "id": "l_car_223",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "L523-CAR turret",
+    "item": "l_car_223",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "l_car_223", "prob": 50 } ]
+  },
+  {
+    "id": "l_def_12",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "L12 Defender turret",
+    "item": "l_def_12",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 6,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "l_def_12", "prob": 50 } ]
+  },
+  {
+    "id": "l_dsr_223",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "L523-DSR turret",
+    "item": "l_dsr_223",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 21,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "l_dsr_223", "prob": 50 } ]
+  },
+  {
+    "id": "l_lmg_223",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "L523-LMG turret",
+    "item": "l_lmg_223",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 21,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "l_lmg_223", "prob": 50 } ]
+  },
+  {
+    "id": "l_long_45",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Long Ranger turret",
+    "item": "l_long_45",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 13,
+    "breaks_into": [ { "item": "l_long_45", "prob": 50 } ]
+  },
+  {
+    "id": "l_mbr_223",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "L523-MBR turret",
+    "item": "l_mbr_223",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "l_mbr_223", "prob": 50 } ]
+  },
+  {
+    "id": "launcher_simple",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "40mm launcher turret",
+    "item": "launcher_simple",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 25,
+    "folded_volume": 5,
+    "breaks_into": [ { "item": "launcher_simple", "prob": 50 } ]
+  },
+  {
+    "id": "m1014",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M1014 shotgun turret",
+    "item": "m1014",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "m1014", "prob": 50 } ]
+  },
+  {
+    "id": "m107a1",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Barrett M107A1 turret",
+    "item": "m107a1",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 25,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "m107a1", "prob": 50 } ]
+  },
+  {
+    "id": "m14ebr",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M14-EBR turret",
+    "item": "m14ebr",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 21,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "m14ebr", "prob": 50 } ]
+  },
+  {
+    "id": "m1a",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M1A turret",
+    "item": "m1a",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "m1a", "prob": 50 } ]
+  },
+  {
+    "id": "m2010",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M2010 ESR turret",
+    "item": "m2010",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 21,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "m2010", "prob": 50 } ]
+  },
+  {
+    "id": "m27iar",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M27 IAR turret",
+    "item": "m27iar",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 21,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "m27iar", "prob": 50 } ]
+  },
+  {
+    "id": "m2browning_sawn",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": ".50 caliber turret",
+    "item": "m2browning_sawn",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 25,
+    "folded_volume": 14,
+    "breaks_into": [ { "item": "m2browning_sawn", "prob": 50 } ]
+  },
+  {
+    "id": "m320",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M320 turret",
+    "item": "m320",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 25,
+    "folded_volume": 3,
+    "breaks_into": [ { "item": "m320", "prob": 50 } ]
+  },
+  {
+    "id": "m4a1",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M4A1 turret",
+    "item": "m4a1",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "m4a1", "prob": 50 } ]
+  },
+  {
+    "id": "m60",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M60 turret",
+    "item": "m60",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 16,
+    "breaks_into": [ { "item": "m60", "prob": 50 } ]
+  },
+  {
+    "id": "m79",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "M79 turret",
+    "item": "m79",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 25,
+    "folded_volume": 4,
+    "breaks_into": [ { "item": "m79", "prob": 50 } ]
+  },
+  {
+    "id": "mac_10",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "MAC-10 turret",
+    "item": "mac_10",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 4,
+    "breaks_into": [ { "item": "mac_10", "prob": 50 } ]
+  },
+  {
+    "id": "marlin_9a",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Marlin 39A turret",
+    "item": "marlin_9a",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "marlin_9a", "prob": 50 } ]
+  },
+  {
+    "id": "mgl",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Milkor MGL turret",
+    "item": "mgl",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 25,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "mgl", "prob": 50 } ]
+  },
+  {
+    "id": "mossberg_500",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Mossberg 500 turret",
+    "item": "mossberg_500",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "mossberg_500", "prob": 50 } ]
+  },
+  {
+    "id": "nailrifle",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "nail rifle turret",
+    "item": "nailrifle",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "nailrifle", "prob": 50 } ]
+  },
+  {
+    "id": "needlegun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM216 SPIW turret",
+    "item": "needlegun",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "needlegun", "prob": 50 } ]
+  },
+  {
+    "id": "pipe_double_shotgun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "double pipe shotgun turret",
+    "item": "pipe_double_shotgun",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 6,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "pipe_double_shotgun", "prob": 50 } ]
+  },
+  {
+    "id": "pipe_shotgun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "pipe shotgun turret",
+    "item": "pipe_shotgun",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 9,
+    "folded_volume": 3,
+    "breaks_into": [ { "item": "pipe_shotgun", "prob": 50 } ]
+  },
+  {
+    "id": "rebar_rifle",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "rail rifle turret",
+    "item": "rebar_rifle",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 18,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "rebar_rifle", "prob": 50 } ]
+  },
+  {
+    "id": "remington_700",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Remington 700 turret",
+    "item": "remington_700",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "remington_700", "prob": 50 } ]
+  },
+  {
+    "id": "remington_870",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Remington 870 turret",
+    "item": "remington_870",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "remington_870", "prob": 50 } ]
+  },
+  {
+    "id": "repeatingcrossbow",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "repeating crossbow turret",
+    "item": "rep_crossbow",
+    "color": "brown",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "range": 8,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "rep_crossbow", "prob": 50 } ]
+  },
+  {
+    "id": "revolver_shotgun",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "revolver shotgun turret",
+    "item": "revolver_shotgun",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 6,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "revolver_shotgun", "prob": 50 } ]
+  },
+  {
+    "id": "rifle_22",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": ".22 pipe rifle turret",
+    "item": "rifle_22",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 12,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "rifle_22", "prob": 50 } ]
+  },
+  {
+    "id": "rifle_308",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": ".308 pipe rifle turret",
+    "item": "rifle_308",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 12,
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "rifle_308", "prob": 50 } ]
+  },
+  {
+    "id": "rifle_9mm",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "9mm pipe rifle turret",
+    "item": "rifle_9mm",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 12,
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "rifle_9mm", "prob": 50 } ]
+  },
+  {
+    "id": "rifle_flintlock",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "flintlock rifle turret",
+    "item": "rifle_flintlock",
+    "symbol": "+",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "durability": 240,
+    "range": 8,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "rifle_flintlock", "prob": 50 } ]
+  },
+  {
+    "id": "rm11b_sniper_rifle",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM11B scout rifle turret",
+    "item": "rm11b_sniper_rifle",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 21,
+    "folded_volume": 13,
+    "breaks_into": [ { "item": "rm11b_sniper_rifle", "prob": 50 } ]
+  },
+  {
+    "id": "rm2000_smg",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM2000 SMG turret",
+    "item": "rm2000_smg",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 6,
+    "breaks_into": [ { "item": "rm2000_smg", "prob": 50 } ]
+  },
+  {
+    "id": "rm360_carbine",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM360 carbine turret",
+    "item": "rm360_carbine",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 6,
+    "breaks_into": [ { "item": "rm360_carbine", "prob": 50 } ]
+  },
+  {
+    "id": "rm51_assault_rifle",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM51 assault rifle turret",
+    "item": "rm51_assault_rifle",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 18,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "rm51_assault_rifle", "prob": 50 } ]
+  },
+  {
+    "id": "rm614_lmg",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM614 LMG turret",
+    "item": "rm614_lmg",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "rm614_lmg", "prob": 50 } ]
+  },
+  {
+    "id": "rm802",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM802 turret",
+    "item": "rm802",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 21,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "rm802", "prob": 50 } ]
+  },
+  {
+    "id": "rm88_battle_rifle",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "RM88 battle rifle turret",
+    "item": "rm88_battle_rifle",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 18,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "rm88_battle_rifle", "prob": 50 } ]
+  },
+  {
+    "id": "rslauncher",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "rotary speargun turret",
+    "item": "rslauncher",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "range": 15,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "rslauncher", "prob": 50 } ]
+  },
+  {
+    "id": "ruger_1022",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Ruger 10/22 turret",
+    "item": "ruger_1022",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "ruger_1022", "prob": 50 } ]
+  },
+  {
+    "id": "ruger_mini",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Ruger mini-14 turret",
+    "item": "ruger_mini",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 9,
+    "breaks_into": [ { "item": "ruger_mini", "prob": 50 } ]
+  },
+  {
+    "id": "saiga_12",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Saiga 12 turret",
+    "item": "saiga_12",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 6,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "saiga_12", "prob": 50 } ]
+  },
+  {
+    "id": "savage_111f",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Savage 111F turret",
+    "item": "savage_111f",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "savage_111f", "prob": 50 } ]
+  },
+  {
+    "id": "scar_h",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "FN SCAR-H turret",
+    "item": "scar_h",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 11,
+    "breaks_into": [ { "item": "scar_h", "prob": 50 } ]
+  },
+  {
+    "id": "scar_l",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "FN SCAR-L turret",
+    "item": "scar_l",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "scar_l", "prob": 50 } ]
+  },
+  {
+    "id": "shotgun_d",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "double shotgun turret",
+    "item": "shotgun_d",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "shotgun_d", "prob": 50 } ]
+  },
+  {
+    "id": "shotgun_s",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "single shotgun turret",
+    "item": "shotgun_s",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 6,
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "shotgun_s", "prob": 50 } ]
+  },
+  {
+    "id": "sks",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "SKS turret",
+    "item": "sks",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "sks", "prob": 50 } ]
+  },
+  {
+    "id": "slauncher",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "speargun turret",
+    "item": "slauncher",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "range": 12,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "slauncher", "prob": 50 } ]
+  },
+  {
+    "id": "steyr_aug",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Steyr AUG turret",
+    "item": "steyr_aug",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 7,
+    "breaks_into": [ { "item": "steyr_aug", "prob": 50 } ]
+  },
+  {
+    "id": "surv_carbine_223",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "223 carbine turret",
+    "item": "surv_carbine_223",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "range": 15,
+    "folded_volume": 6,
+    "breaks_into": [ { "item": "surv_carbine_223", "prob": 50 } ]
+  },
+  {
+    "id": "survivor_special_700",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "survivor special turret",
+    "item": "survivor_special_700",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 15,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "survivor_special_700", "prob": 50 } ]
+  },
+  {
+    "id": "tec9",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "TEC-9 turret",
+    "item": "tec9",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 3,
+    "breaks_into": [ { "item": "tec9", "prob": 50 } ]
+  },
+  {
+    "id": "uzi",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "Uzi turret",
+    "item": "uzi",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 3,
+    "range": 10,
+    "folded_volume": 5,
+    "breaks_into": [ { "item": "uzi", "prob": 50 } ]
+  },
+  {
+    "id": "v29",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "V29 laser turret",
+    "item": "v29",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 6,
+    "range": 15,
+    "folded_volume": 4,
+    "breaks_into": [ { "item": "v29", "prob": 50 } ]
+  },
+  {
+    "id": "v29_cheap",
+    "copy-from": "blaze_turret",
+    "type": "vehicle_part",
+    "name": "LACP laser turret",
+    "item": "v29_cheap",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 6,
+    "range": 10,
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "v29_cheap", "prob": 50 } ]
   }
 ]

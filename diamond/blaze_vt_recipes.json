@@ -1,198 +1,171 @@
-[{
-    "result" : "vgen",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "subcategory" : "CSC_OTHER_MATERIALS",
-    "skill_used" : "fabrication",
-    "difficulty" : 6,
-    "skills_required" : [["mechanics", 6]],
-    "time" : 108000,
-    "reversible" : false,
-    "book_learn" : [["spiral_stone", 1], ["vortex_stone", 1], ["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 2
-      }, {
-        "id" : "SAW_M",
-        "level" : 1
-      }
+[
+  {
+    "result": "vgen",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ [ "mechanics", 6 ] ],
+    "time": 108000,
+    "reversible": false,
+    "book_learn": [ [ "spiral_stone", 1 ], [ "vortex_stone", 1 ], [ "spiral_matrix", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 }
     ],
-    "tools" : [
-      [["goggles_welding", -1]],
-      [["tongs", -1]],
-      [["chisel", -1]],
-      [["anvil", -1]],
-      [["swage", -1]],
-      [["forge", 400], ["char_forge", 100]],
-      [["welder", 60], ["welder_crude", 75], ["toolset", 75], ["oxy_torch", 6]]
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "forge", 400 ], [ "char_forge", 100 ] ],
+      [ [ "welder", 60 ], [ "welder_crude", 75 ], [ "toolset", 75 ], [ "oxy_torch", 6 ] ]
     ],
-    "components" : [
-      [["vortex_stone", 1]],
-      [["chain", 6]],
-      [["scrap", 27], ["steel_chunk", 9], ["steel_lump", 3]],
-      [["foot_crank", 6]],
-      [["metal_tank", 1]],
-      [["plastic_chunk", 30]]
+    "components": [
+      [ [ "vortex_stone", 1 ] ],
+      [ [ "chain", 6 ] ],
+      [ [ "scrap", 27 ], [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "foot_crank", 6 ] ],
+      [ [ "metal_tank", 1 ] ],
+      [ [ "plastic_chunk", 30 ] ]
     ]
-  }, {
-    "result" : "vgen2",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "subcategory" : "CSC_OTHER_MATERIALS",
-    "skill_used" : "fabrication",
-    "difficulty" : 5,
-    "skills_required" : [["mechanics", 5], ["electronics", 3]],
-    "time" : 108000,
-    "book_learn" : [["spiral_stone", 1], ["vortex_stone", 1], ["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 2
-      }, {
-        "id" : "SAW_M",
-        "level" : 1
-      }
+  },
+  {
+    "result": "vgen2",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
+    "time": 108000,
+    "book_learn": [ [ "spiral_stone", 1 ], [ "vortex_stone", 1 ], [ "spiral_matrix", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 }
     ],
-    "tools" : [
-      [["goggles_welding", -1]],
-      [["tongs", -1]],
-      [["chisel", -1]],
-      [["anvil", -1]],
-      [["swage", -1]],
-      [["forge", 400], ["char_forge", 100]],
-      [["welder", 60], ["welder_crude", 75], ["toolset", 75], ["oxy_torch", 6]]
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "forge", 400 ], [ "char_forge", 100 ] ],
+      [ [ "welder", 60 ], [ "welder_crude", 75 ], [ "toolset", 75 ], [ "oxy_torch", 6 ] ]
     ],
-    "components" : [
-      [["vortex_stone", 1]],
-      [["chain", 6]],
-      [["foot_crank", 3]],
-      [["metal_tank", 1]],
-      [["scrap", 27], ["steel_chunk", 9], ["steel_lump", 3]],
-      [["plastic_chunk", 30]],
-      [["alternator_truck", 6], ["alternator_car", 6], ["alternator_motorbike", 6]]
+    "components": [
+      [ [ "vortex_stone", 1 ] ],
+      [ [ "chain", 6 ] ],
+      [ [ "foot_crank", 3 ] ],
+      [ [ "metal_tank", 1 ] ],
+      [ [ "scrap", 27 ], [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "plastic_chunk", 30 ] ],
+      [ [ "alternator_truck", 6 ], [ "alternator_car", 6 ], [ "alternator_motorbike", 6 ] ]
     ]
-  }, {
-    "result" : "space_anomaly",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "subcategory" : "CSC_OTHER_MATERIALS",
-    "skill_used" : "electronics",
-    "difficulty" : 8,
-    "skills_required" : [["mechanics", 3], ["electronics", 3]],
-    "time" : 144000,
-    "book_learn" : [["spiral_stone", 1], ["vortex_stone", 1], ["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 2
-      }, {
-        "id" : "SAW_M",
-        "level" : 1
-      }
+  },
+  {
+    "result": "space_anomaly",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
+    "time": 144000,
+    "book_learn": [ [ "spiral_stone", 1 ], [ "vortex_stone", 1 ], [ "spiral_matrix", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 }
     ],
-    "tools" : [
-      [["goggles_welding", -1]],
-      [["welder", 60], ["welder_crude", 75], ["toolset", 75], ["oxy_torch", 6]]
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 60 ], [ "welder_crude", 75 ], [ "toolset", 75 ], [ "oxy_torch", 6 ] ]
     ],
-    "components" : [
-      [["cargo_rack", 1]],
-      [["teleporter", 1]],
-      [["portal", 1]],
-      [["plut_cell", 10]]
+    "components": [
+      [ [ "cargo_rack", 1 ] ],
+      [ [ "teleporter", 1 ] ],
+      [ [ "portal", 1 ] ],
+      [ [ "plut_cell", 10 ] ]
     ]
-  }, {
-    "result" : "spiral_matrix",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "subcategory" : "CSC_OTHER_MATERIALS",
-    "skill_used" : "fabrication",
-    "difficulty" : 10,
-    "//" : "Originally needed a CVD machine, but that changed when crafting_pseudo_item was changed, it doesn't seem to work in the current experimental, so I removed it.",
-    "time" : 30000,
-    "book_learn" : [["spiral_stone", 1], ["vortex_stone", 1], ["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 3
-      }
+  },
+  {
+    "result": "spiral_matrix",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "//": "Originally needed a CVD machine, but that changed when crafting_pseudo_item was changed, it doesn't seem to work in the current experimental, so I removed it.",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": 30000,
+    "book_learn": [ [ "spiral_stone", 1 ], [ "vortex_stone", 1 ], [ "spiral_matrix", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "tools": [
+      [ [ "chisel", -1 ] ],
+      [ [ "cvd_machine", -1 ] ]
     ],
-    "tools" : [
-      [["chisel", -1]],
-      [["cvd_machine", -1]]
-    ],
-    "components" : [
-      [["charcoal", 1000]],
-      [["plasma", 100]],
-      [["spiral_stone", 1]]
+    "components": [
+      [ [ "charcoal", 1000 ] ],
+      [ [ "plasma", 100 ] ],
+      [ [ "spiral_stone", 1 ] ]
     ]
-  }, {
-    "result" : "vortexcannon",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "subcategory" : "CSC_OTHER_PARTS",
-    "skill_used" : "fabrication",
-    "difficulty" : 8,
-    "skills_required" : ["mechanics", 8],
-    "time" : 90000,
-    "book_learn" : [["spiral_stone", 1], ["vortex_stone", 1], ["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 1
-      }, {
-        "id" : "SAW_M",
-        "level" : 1
-      }
+  },
+  {
+    "result": "vortexcannon",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [ "mechanics", 8 ],
+    "time": 90000,
+    "book_learn": [ [ "spiral_stone", 1 ], [ "vortex_stone", 1 ], [ "spiral_matrix", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SAW_M", "level": 1 }
     ],
-    "tools" : [[["welder", 100], ["welder_crude", 150], ["toolset", 200], ["oxy_torch", 20]]],
-    "components" : [
-      [["metal_tank", 1]],
-      [["pipe", 10]],
-      [["steel_chunk", 24], ["steel_lump", 6]],
-      [["spring", 2]],
-      [["plastic_chunk", 12]],
-      [["vortex_stone", 1]]
+    "tools": [ [ [ "welder", 100 ], [ "welder_crude", 150 ], [ "toolset", 200 ], [ "oxy_torch", 20 ] ] ],
+    "components": [
+      [ [ "metal_tank", 1 ] ],
+      [ [ "pipe", 10 ] ],
+      [ [ "steel_chunk", 24 ], [ "steel_lump", 6 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "plastic_chunk", 12 ] ],
+      [ [ "vortex_stone", 1 ] ]
     ]
-  }, {
-    "result" : "dobelisk",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "byproducts" : [["dprism", 3]],
-    "subcategory" : "CSC_OTHER_MATERIALS",
-    "skill_used" : "fabrication",
-    "difficulty" : 10,
-    "time" : 120000,
-    "reversible" : false,
-    "book_learn" : [["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 3
-      }
-    ],
-    "tools" : [
-      [["spiral_matrix", 1000]]
-    ],
-    "components" : [
-      [["frame_wood", 5]],
-      [["solar_panel", 12]],
-      [["spiral_stone", 10]]
+  },
+  {
+    "result": "dobelisk",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": 120000,
+    "reversible": false,
+    "book_learn": [ [ "spiral_matrix", 1 ] ],
+    "byproducts": [ [ "dprism", 3 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "tools": [ [ [ "spiral_matrix", 1000 ] ] ],
+    "components": [
+      [ [ "frame_wood", 5 ] ],
+      [ [ "solar_panel", 12 ] ],
+      [ [ "spiral_stone", 10 ] ]
     ]
-  }, {
-    "result" : "dprism",
-    "type" : "recipe",
-    "category" : "CC_OTHER",
-    "subcategory" : "CSC_OTHER_MATERIALS",
-    "skill_used" : "fabrication",
-    "difficulty" : 10,
-    "time" : 1000,
-    "reversible" : false,
-    "book_learn" : [["spiral_matrix", 1]],
-    "qualities" : [{
-        "id" : "HAMMER",
-        "level" : 3
-      }
-    ],
-    "tools" : [
-      [["dobelisk", -1]]
-    ],
-    "components" : [
-      [["spiral_stone", 3]]
-    ]
+  },
+  {
+    "result": "dprism",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": 1000,
+    "reversible": false,
+    "book_learn": [ [ "spiral_matrix", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "tools": [ [ [ "dobelisk", -1 ] ] ],
+    "components": [ [ [ "spiral_stone", 3 ] ] ]
   }
 ]

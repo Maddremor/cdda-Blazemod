@@ -26,7 +26,7 @@
       }
     ],
     "damage_reduction" : {
-      "physical" : 5
+      "all" : 5
     }
   }, {
     "abstract" : "gloople_frame",
@@ -239,7 +239,7 @@
       }
     ],
     "damage_reduction" : {
-      "physical" : 10
+      "all" : 10
     }
   }, {
     "abstract" : "gray_frame",

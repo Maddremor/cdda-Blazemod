@@ -1,523 +1,518 @@
-[{
-    "abstract" : "dframe",
-    "type" : "vehicle_part",
-    "name" : "diamond frame",
-    "item" : "spiral_stone",
-    "location" : "structure",
-    "difficulty" : 1,
-    "durability" : 2000,
-    "damage_modifier" : 80,
-    "broken_symbol" : "#",
-    "color" : "white",
-    "broken_color" : "white",
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "using" : "blazemod_diamond",
-        "time" : 42000
+[
+  {
+    "abstract": "dframe",
+    "type": "vehicle_part",
+    "name": "diamond frame",
+    "item": "spiral_stone",
+    "location": "structure",
+    "broken_symbol": "#",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 1,
+    "durability": 2000,
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 20 },
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 42000,
+        "using": "blazemod_diamond"
       },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
       },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 14000,
-        "using" : "blazemod_diamondfix"
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 14000,
+        "using": "blazemod_diamondfix"
       }
     },
-    "damage_reduction" : {
-      "all" : 20
-    },
-    "flags" : ["MOUNTABLE"]
-  }, {
-    "abstract" : "dbarrier",
-    "type" : "vehicle_part",
-    "name" : "diamond barrier",
-    "item" : "wood_plate",
-    "location" : "center",
-    "difficulty" : 1,
-    "durability" : 2000,
-    "damage_modifier" : 80,
-    "broken_symbol" : "#",
-    "color" : "white",
-    "broken_color" : "white",
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 30000,
-        "using" : "blazemod_diamond"
+    "flags": [ "MOUNTABLE" ]
+  },
+  {
+    "abstract": "dbarrier",
+    "type": "vehicle_part",
+    "name": "diamond barrier",
+    "item": "wood_plate",
+    "location": "center",
+    "broken_symbol": "#",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 1,
+    "durability": 2000,
+    "damage_modifier": 80,
+    "damage_reduction": { "all": 20 },
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 30000,
+        "using": "blazemod_diamond"
       },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
       },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 10000,
-        "using" : "blazemod_diamondfix"
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 10000,
+        "using": "blazemod_diamondfix"
       }
     },
-    "damage_reduction" : {
-      "all" : 20
-    },
-    "flags" : ["OBSTACLE", "WINDOW"]
-  }, {
-    "abstract" : "dpart",
-    "type" : "vehicle_part",
-    "difficulty" : 1,
-    "durability" : 500,
-    "broken_symbol" : "#",
-    "color" : "white",
-    "broken_color" : "white",
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 30000,
-        "using" : "blazemod_diamondminor"
+    "flags": [ "OBSTACLE", "WINDOW" ]
+  },
+  {
+    "abstract": "dpart",
+    "type": "vehicle_part",
+    "broken_symbol": "#",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 1,
+    "durability": 500,
+    "damage_reduction": { "all": 20 },
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 30000,
+        "using": "blazemod_diamondminor"
       },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
       },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 10000,
-        "using" : "blazemod_diamondfixminor"
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 10000,
+        "using": "blazemod_diamondfixminor"
       }
-    },
-    "damage_reduction" : {
-      "all" : 20
     }
-  }, {
-    "id" : "dboard_horizontal",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "h"
-  }, {
-    "id" : "dboard_horizontal",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "h"
-  }, {
-    "id" : "dboard_ne",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "i"
-  }, {
-    "id" : "dboard_nw",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "y"
-  }, {
-    "id" : "dboard_se",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "n"
-  }, {
-    "id" : "dboard_sw",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "b"
-  }, {
-    "id" : "dboard_vertical",
-    "type" : "vehicle_part",
-    "copy-from" : "dbarrier",
-    "symbol" : "j"
-  }, {
-    "id" : "dframe_cross",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "c",
-    "extend" : {
-      "flags" : ["INITIAL_PART"]
-    }
-  }, {
-    "id" : "dframe_cover",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "^"
-  }, {
-    "id" : "dframe_horizontal",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "h"
-  }, {
-    "id" : "dframe_horizontal_2",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "="
-  }, {
-    "id" : "dframe_ne",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "u"
-  }, {
-    "id" : "dframe_nw",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "y"
-  }, {
-    "id" : "dframe_se",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "n"
-  }, {
-    "id" : "dframe_sw",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "b"
-  }, {
-    "id" : "dframe_vertical",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "j"
-  }, {
-    "id" : "dframe_vertical_2",
-    "type" : "vehicle_part",
-    "copy-from" : "dframe",
-    "symbol" : "H"
-  }, {
-    "id" : "plating_diamond",
-    "type" : "vehicle_part",
-    "name" : "diamond plating",
-    "item" : "wood_plate",
-    "location" : "armor",
-    "symbol" : ")",
-    "broken_symbol" : ")",
-    "color" : "white",
-    "broken_color" : "white",
-    "difficulty" : 1,
-    "durability" : 5000,
-    "flags" : ["ARMOR", "WINDOW"]
-  }, {
-    "id" : "space_anomaly",
-    "type" : "vehicle_part",
-    "name" : "cargo dimension",
-    "//" : "Keep away from Svarog detectors!",
-    "item" : "space_anomaly",
-    "location" : "center",
-    "symbol" : "O",
-    "broken_symbol" : "O",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "difficulty" : 1,
-    "durability" : 400,
-    "size" : 1000000,
-    "breaks_into" : [],
-    "flags" : ["CARGO", "COVERED", "UNMOUNT_ON_DAMAGE"]
-  }, {
-    "id" : "vgen",
-    "type" : "vehicle_part",
-    "name" : "vortex generator",
-    "item" : "vgen2",
-    "location" : "engine_block",
-    "symbol" : "8",
-    "broken_symbol" : "x",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "difficulty" : 1,
-    "durability" : 400,
-    "power" : 149200,
-    "epower" : 600,
-    "damage_modifier" : 10,
-    "flags" : ["REACTOR"],
-    "breaks_into" : [{
-        "item" : "spiral_stone"
-      }, {
-        "item" : "foot_crank",
-        "count" : [0, 2]
-      }, {
-        "item" : "chain",
-        "count" : [0, 4]
-      }, {
-        "item" : "hose",
-        "count" : [0, 4]
-      }, {
-        "item" : "scrap",
-        "count" : [4, 12]
-      }, {
-        "item" : "steel_chunk",
-        "count" : [2, 5]
-      }, {
-        "item" : "plastic_chunk",
-        "count" : [2, 8]
-      }
-    ]
-  }, {
-    "id" : "vgen2",
-    "type" : "vehicle_part",
-    "name" : "vortex engine",
-    "item" : "vgen",
-    "location" : "engine_block",
-    "symbol" : "8",
-    "broken_symbol" : "x",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "fuel_type" : "battery",
+  },
+  {
+    "id": "dboard_horizontal",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "dboard_horizontal",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "dboard_ne",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "i"
+  },
+  {
+    "id": "dboard_nw",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "dboard_se",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "dboard_sw",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "dboard_vertical",
+    "copy-from": "dbarrier",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "dframe_cross",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "c",
+    "extend": { "flags": [ "INITIAL_PART" ] }
+  },
+  {
+    "id": "dframe_cover",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "^"
+  },
+  {
+    "id": "dframe_horizontal",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "dframe_horizontal_2",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "="
+  },
+  {
+    "id": "dframe_ne",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "dframe_nw",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "dframe_se",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "dframe_sw",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "dframe_vertical",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "dframe_vertical_2",
+    "copy-from": "dframe",
+    "type": "vehicle_part",
+    "symbol": "H"
+  },
+  {
+    "id": "plating_diamond",
+    "type": "vehicle_part",
+    "name": "diamond plating",
+    "item": "wood_plate",
+    "location": "armor",
+    "symbol": ")",
+    "broken_symbol": ")",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 1,
+    "durability": 5000,
+    "flags": [ "ARMOR", "WINDOW" ]
+  },
+  {
+    "id": "space_anomaly",
+    "type": "vehicle_part",
+    "name": "cargo dimension",
+    "//": "Keep away from Svarog detectors!",
+    "item": "space_anomaly",
+    "location": "center",
+    "symbol": "O",
+    "broken_symbol": "O",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 1,
+    "durability": 400,
+    "size": 1000000,
+    "breaks_into": [],
+    "flags": [ "CARGO", "COVERED", "UNMOUNT_ON_DAMAGE" ]
+  },
+  {
+    "id": "vgen",
+    "type": "vehicle_part",
+    "name": "vortex generator",
+    "item": "vgen2",
+    "location": "engine_block",
+    "symbol": "8",
+    "broken_symbol": "x",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 1,
+    "durability": 400,
+    "power": 149200,
+    "epower": 600,
+    "damage_modifier": 10,
+    "breaks_into": [
+      { "item": "spiral_stone" },
+      { "item": "foot_crank", "count": [ 0, 2 ] },
+      { "item": "chain", "count": [ 0, 4 ] },
+      { "item": "hose", "count": [ 0, 4 ] },
+      { "item": "scrap", "count": [ 4, 12 ] },
+      { "item": "steel_chunk", "count": [ 2, 5 ] },
+      { "item": "plastic_chunk", "count": [ 2, 8 ] }
+    ],
+    "flags": [ "REACTOR" ]
+  },
+  {
+    "id": "vgen2",
+    "type": "vehicle_part",
+    "name": "vortex engine",
+    "item": "vgen",
+    "location": "engine_block",
+    "fuel_type": "battery",
+    "symbol": "8",
+    "broken_symbol": "x",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 1,
+    "durability": 400,
     "power": 400000,
-    "epower" : 0,
-    "difficulty" : 1,
-    "durability" : 400,
-    "damage_modifier" : 10,
-    "breaks_into" : [{
-        "item" : "spiral_stone"
-      }, {
-        "item" : "foot_crank",
-        "count" : [0, 2]
-      }, {
-        "item" : "chain",
-        "count" : [0, 2]
-      }, {
-        "item" : "hose",
-        "count" : [0, 4]
-      }, {
-        "item" : "scrap",
-        "count" : [4, 12]
-      }, {
-        "item" : "plastic_chunk",
-        "count" : [2, 8]
-      }
+    "epower": 0,
+    "damage_modifier": 10,
+    "breaks_into": [
+      { "item": "spiral_stone" },
+      { "item": "foot_crank", "count": [ 0, 2 ] },
+      { "item": "chain", "count": [ 0, 2 ] },
+      { "item": "hose", "count": [ 0, 4 ] },
+      { "item": "scrap", "count": [ 4, 12 ] },
+      { "item": "plastic_chunk", "count": [ 2, 8 ] }
     ],
-    "flags" : ["ENGINE"]
-  }, {
-    "id" : "vortexcannon",
-    "type" : "vehicle_part",
-    "name" : "manual vortex cannon",
-    "item" : "vortexcannon",
-    "location" : "on_roof",
-    "symbol" : "t",
-    "broken_symbol" : "#",
-    "color" : "pink",
-    "broken_color" : "pink",
-    "difficulty" : 4,
-    "durability" : 400,
-    "size" : 10,
-    "damage_modifier" : 80,
-    "folded_volume" : 20,
-    "breaks_into" : [{
-        "item" : "vortexcannon",
-        "count" : [0, 1]
-      }
-    ],
-    "flags" : ["TURRET", "MANUAL"]
-  }, {
-    "id" : "avortexcannon",
-    "type" : "vehicle_part",
-    "name" : "vortex cannon",
-    "item" : "vortexcannon",
-    "location" : "on_roof",
-    "symbol" : "t",
-    "broken_symbol" : "#",
-    "color" : "pink",
-    "broken_color" : "pink",
-    "difficulty" : 4,
-    "durability" : 400,
-    "size" : 10,
-    "damage_modifier" : 80,
-    "folded_volume" : 20,
-    "breaks_into" : [{
-        "item" : "vortexcannon",
-        "count" : [0, 1]
-      }
-    ],
-    "flags" : ["TURRET", "NEEDS_BATTERY_MOUNT"]
-  }, {
-    "id" : "obeliskoflight",
-    "type" : "vehicle_part",
-    "name" : "diamond obelisk",
-    "item" : "dobelisk",
-    "location" : "on_roof",
-    "symbol" : "T",
-    "broken_symbol" : "#",
-    "color" : "white",
-    "broken_color" : "white",
-    "epower" : 900,
-    "difficulty" : 4,
-    "durability" : 5000,
-    "damage_modifier" : 50,
-    "flags" : ["TURRET", "MANUAL", "SOLAR_PANEL"],
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 42000,
-        "using" : "blazemod_diamondminor"
+    "flags": [ "ENGINE" ]
+  },
+  {
+    "id": "vortexcannon",
+    "type": "vehicle_part",
+    "name": "manual vortex cannon",
+    "item": "vortexcannon",
+    "location": "on_roof",
+    "symbol": "t",
+    "broken_symbol": "#",
+    "color": "pink",
+    "broken_color": "pink",
+    "difficulty": 4,
+    "durability": 400,
+    "size": 10,
+    "damage_modifier": 80,
+    "folded_volume": 20,
+    "breaks_into": [ { "item": "vortexcannon", "count": [ 0, 1 ] } ],
+    "flags": [ "TURRET", "MANUAL" ]
+  },
+  {
+    "id": "avortexcannon",
+    "type": "vehicle_part",
+    "name": "vortex cannon",
+    "item": "vortexcannon",
+    "location": "on_roof",
+    "symbol": "t",
+    "broken_symbol": "#",
+    "color": "pink",
+    "broken_color": "pink",
+    "difficulty": 4,
+    "durability": 400,
+    "size": 10,
+    "damage_modifier": 80,
+    "folded_volume": 20,
+    "breaks_into": [ { "item": "vortexcannon", "count": [ 0, 1 ] } ],
+    "flags": [ "TURRET", "NEEDS_BATTERY_MOUNT" ]
+  },
+  {
+    "id": "obeliskoflight",
+    "type": "vehicle_part",
+    "name": "diamond obelisk",
+    "item": "dobelisk",
+    "location": "on_roof",
+    "symbol": "T",
+    "broken_symbol": "#",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 4,
+    "durability": 5000,
+    "epower": 900,
+    "damage_modifier": 50,
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 42000,
+        "using": "blazemod_diamondminor"
       },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
       },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 14000,
-        "using" : "blazemod_diamondfix"
-      }
-    }
-  }, {
-    "id" : "prismoflight",
-    "type" : "vehicle_part",
-    "name" : "diamond prism",
-    "item" : "dprism",
-    "location" : "on_roof",
-    "symbol" : "*",
-    "broken_symbol" : "#",
-    "color" : "white",
-    "epower" : 50,
-    "broken_color" : "white",
-    "difficulty" : 4,
-    "durability" : 1000,
-    "damage_modifier" : 10,
-    "flags" : ["TURRET", "SOLAR_PANEL"],
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 42000,
-        "using" : "blazemod_diamondminor"
-      },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
-      },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 14000,
-        "using" : "blazemod_diamondfix"
-      }
-    }
-  }, {
-    "id" : "wheel_diamond",
-    "type" : "vehicle_part",
-    "name" : "diamond cart wheel",
-    "item" : "wheel_wood",
-    "location" : "under",
-    "symbol" : "|",
-    "broken_symbol" : "x",
-    "color" : "white",
-    "broken_color" : "white",
-    "difficulty" : 2,
-    "durability" : 1000,
-    "damage_modifier" : 50,
-    "flags" : ["WHEEL", "STEERABLE"],
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 30000,
-        "using" : "blazemod_diamond"
-      },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
-      },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 10000,
-        "using" : "blazemod_diamondfix"
-      }
-    }
-  }, {
-    "type" : "vehicle_part",
-    "copy-from" : "dpart",
-    "id" : "roof_diamond",
-    "symbol" : "#",
-    "name" : "diamond roof",
-    "item" : "frame_wood",
-    "location" : "roof",
-    "flags" : ["ROOF"]
-  }, {
-    "type" : "vehicle_part",
-    "copy-from" : "dpart",
-    "id" : "dbox",
-    "name" : "diamond chest",
-    "item" : "frame_wood",
-    "symbol" : "o",
-    "size" : 500,
-    "location" : "center",
-    "flags" : ["CARGO", "BOARDABLE", "COVERED"]
-  }, {
-    "type" : "vehicle_part",
-    "id" : "dthrone",
-    "copy-from" : "dpart",
-    "item" : "frame_wood",
-    "symbol" : "#",
-    "name" : "diamond throne",
-    "location" : "center",
-    "flags" : ["SEAT", "BOARDABLE", "BELTABLE"]
-  }, {
-    "type" : "vehicle_part",
-    "copy-from" : "dpart",
-    "id" : "daisle_v",
-    "name" : "diamond aisle",
-    "symbol" : "H",
-    "item" : "2x4",
-    "flags" : ["AISLE", "BOARDABLE"]
-  }, {
-    "type" : "vehicle_part",
-    "copy-from" : "dpart",
-    "id" : "daisle_h",
-    "name" : "crystal path",
-    "symbol" : "=",
-    "item" : "2x4",
-    "flags" : ["AISLE", "BOARDABLE"]
-  }, {
-    "type" : "vehicle_part",
-    "id" : "ddozer",
-    "name" : "diamond dozer blade",
-    "symbol" : "X",
-    "color" : "white",
-    "broken_symbol" : ";",
-    "broken_color" : "white",
-    "durability" : 2000,
-    "size" : 1000,
-    "damage_modifier" : 10,
-    "item" : "wood_plate",
-    "difficulty" : 1,
-    "flags" : ["SCOOP", "CARGO", "PROTRUSION"],
-    "location" : "structure",
-    "requirements" : {
-      "install" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 42000,
-        "using" : "blazemod_diamond"
-      },
-      "removal" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 5000,
-        "using" : "blazemod_diamondminor"
-      },
-      "repair" : {
-        "skills" : [["mechanics", 1]],
-        "time" : 14000,
-        "using" : "blazemod_diamondfix"
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 14000,
+        "using": "blazemod_diamondfix"
       }
     },
-    "damage_reduction" : {
-      "all" : 20
-    }
-  }, {
-    "type" : "vehicle_part",
-    "copy-from" : "dpart",
-    "id" : "dspike_v",
-    "name" : "diamond lance",
-    "symbol" : "|",
-    "item" : "2x4",
-    "damage_modifier" : 300,
-    "location" : "structure",
-    "flags" : ["SHARP", "PROTRUSION"]
-  }, {
-    "type" : "vehicle_part",
-    "copy-from" : "dpart",
-    "id" : "dspike_h",
-    "name" : "diamond edge",
-    "symbol" : "-",
-    "item" : "2x4",
-    "damage_modifier" : 300,
-    "location" : "structure",
-    "flags" : ["SHARP", "PROTRUSION"]
+    "flags": [ "TURRET", "MANUAL", "SOLAR_PANEL" ]
+  },
+  {
+    "id": "prismoflight",
+    "type": "vehicle_part",
+    "name": "diamond prism",
+    "item": "dprism",
+    "location": "on_roof",
+    "symbol": "*",
+    "broken_symbol": "#",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 4,
+    "durability": 1000,
+    "epower": 50,
+    "damage_modifier": 10,
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 42000,
+        "using": "blazemod_diamondminor"
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 14000,
+        "using": "blazemod_diamondfix"
+      }
+    },
+    "flags": [ "TURRET", "SOLAR_PANEL" ]
+  },
+  {
+    "id": "wheel_diamond",
+    "type": "vehicle_part",
+    "name": "diamond cart wheel",
+    "item": "wheel_wood",
+    "location": "under",
+    "symbol": "|",
+    "broken_symbol": "x",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 2,
+    "durability": 1000,
+    "damage_modifier": 50,
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 30000,
+        "using": "blazemod_diamond"
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 10000,
+        "using": "blazemod_diamondfix"
+      }
+    },
+    "flags": [ "WHEEL", "STEERABLE" ]
+  },
+  {
+    "id": "roof_diamond",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "diamond roof",
+    "item": "frame_wood",
+    "location": "roof",
+    "symbol": "#",
+    "flags": [ "ROOF" ]
+  },
+  {
+    "id": "dbox",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "diamond chest",
+    "item": "frame_wood",
+    "location": "center",
+    "symbol": "o",
+    "size": 500,
+    "flags": [ "CARGO", "BOARDABLE", "COVERED" ]
+  },
+  {
+    "id": "dthrone",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "diamond throne",
+    "item": "frame_wood",
+    "location": "center",
+    "symbol": "#",
+    "flags": [ "SEAT", "BOARDABLE", "BELTABLE" ]
+  },
+  {
+    "id": "daisle_v",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "diamond aisle",
+    "item": "2x4",
+    "symbol": "H",
+    "flags": [ "AISLE", "BOARDABLE" ]
+  },
+  {
+    "id": "daisle_h",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "crystal path",
+    "item": "2x4",
+    "symbol": "=",
+    "flags": [ "AISLE", "BOARDABLE" ]
+  },
+  {
+    "id": "ddozer",
+    "type": "vehicle_part",
+    "name": "diamond dozer blade",
+    "item": "wood_plate",
+    "location": "structure",
+    "symbol": "X",
+    "broken_symbol": ";",
+    "color": "white",
+    "broken_color": "white",
+    "difficulty": 1,
+    "durability": 2000,
+    "size": 1000,
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 20 },
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 42000,
+        "using": "blazemod_diamond"
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 14000,
+        "using": "blazemod_diamondfix"
+      }
+    },
+    "flags": [ "SCOOP", "CARGO", "PROTRUSION" ]
+  },
+  {
+    "id": "dspike_v",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "diamond lance",
+    "item": "2x4",
+    "location": "structure",
+    "symbol": "|",
+    "damage_modifier": 300,
+    "flags": [ "SHARP", "PROTRUSION" ]
+  },
+  {
+    "id": "dspike_h",
+    "copy-from": "dpart",
+    "type": "vehicle_part",
+    "name": "diamond edge",
+    "item": "2x4",
+    "location": "structure",
+    "symbol": "-",
+    "damage_modifier": 300,
+    "flags": [ "SHARP", "PROTRUSION" ]
   }
 ]

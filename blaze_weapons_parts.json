@@ -1,273 +1,223 @@
-[{
-    "abstract" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "location" : "on_roof",
-    "symbol" : "t",
-    "broken_symbol" : "#",
-    "durability" : 400,
-    "damage_modifier" : 80,
-    "flags" : ["FOLDABLE", "TURRET", "MANUAL", "TOOL_NONE"]
-  }, {
-    "id" : "bolter",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual storm bolter",
-    "item" : "bolter",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "bolter",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "cangun",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual slingshot cannon",
-    "item" : "cangun",
-    "color" : "brown",
-    "broken_color" : "brown",
-    "difficulty" : 4,
-    "folded_volume" : 22,
-    "breaks_into" : [{
-        "item" : "cangun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "gattler1",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual rotary cannon",
-    "item" : "gattler",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "range" : 15,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "gattler",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "lasgun",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual laser cannon",
-    "item" : "lasgun",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 6,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "lasgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "lasgunp",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual pulse laser",
-    "item" : "lasgunp",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 6,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "lasgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "lasgunx",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual turbolaser",
-    "item" : "lasgunx",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "difficulty" : 6,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "lasgunx",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "mflamethrower3",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual RM451 flamethrower",
-    "item" : "rm451_flamethrower",
-    "color" : "red",
-    "broken_color" : "red",
-    "difficulty" : 4,
-    "range" : 12,
-    "folded_volume" : 19,
-    "breaks_into" : [{
-        "item" : "rm451_flamethrower",
-        "prob" : 50
-      }
-    ],
-    "flags" : ["TURRET", "FOLDABLE", "TOOL_NONE", "USE_TANKS"]
-  }, {
-    "id" : "nailer",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual perforator",
-    "item" : "nailer",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "folded_volume" : 10,
-    "breaks_into" : [{
-        "item" : "nailer",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "needler",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual needler",
-    "item" : "needler",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 5,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "needler",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "railturret",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual hypervelocity driver",
-    "item" : "railturret",
-    "color" : "magenta",
-    "broken_color" : "magenta",
-    "difficulty" : 5,
-    "range" : 14,
-    "folded_volume" : 16,
-    "breaks_into" : [{
-        "item" : "railturret",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "ripper",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual ripper",
-    "item" : "ripper",
-    "broken_symbol" : "x",
-    "color" : "dark_gray",
-    "broken_color" : "dark_gray",
-    "difficulty" : 5,
-    "power" : -25,
-    "range" : 15,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "ripper",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "rslauncher",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual rotary speargun",
-    "item" : "rslauncher",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 5,
-    "folded_volume" : 18,
-    "breaks_into" : [{
-        "item" : "rslauncher",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "scorpion",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual scorpion ballista",
-    "item" : "scorpion",
-    "color" : "brown",
-    "broken_color" : "brown",
-    "difficulty" : 4,
-    "folded_volume" : 20,
-    "breaks_into" : [{
-        "item" : "scorpion",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "shardgun",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual splintergun",
-    "item" : "shardgun",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 6,
-    "folded_volume" : 14,
-    "breaks_into" : [{
-        "item" : "shardgun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "slauncher",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual speargun",
-    "item" : "slauncher",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 3,
-    "folded_volume" : 12,
-    "breaks_into" : [{
-        "item" : "slauncher",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "teslagun",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual tesla cannon",
-    "item" : "teslagun",
-    "color" : "blue",
-    "broken_color" : "blue",
-    "difficulty" : 3,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "teslagun",
-        "prob" : 50
-      }
-    ]
-  }, {
-    "id" : "tiharturret",
-    "copy-from" : "blaze_turret_manual",
-    "type" : "vehicle_part",
-    "name" : "manual avalanche rifle",
-    "item" : "tiharturret",
-    "color" : "ltgray",
-    "broken_color" : "ltgray",
-    "difficulty" : 4,
-    "folded_volume" : 15,
-    "breaks_into" : [{
-        "item" : "tiharturret",
-        "prob" : 50
-      }
-    ]
+[
+  {
+    "abstract": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "location": "on_roof",
+    "symbol": "t",
+    "broken_symbol": "#",
+    "durability": 400,
+    "damage_modifier": 80,
+    "flags": [ "FOLDABLE", "TURRET", "MANUAL", "TOOL_NONE" ]
+  },
+  {
+    "id": "bolter",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual storm bolter",
+    "item": "bolter",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "bolter", "prob": 50 } ]
+  },
+  {
+    "id": "cangun",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual slingshot cannon",
+    "item": "cangun",
+    "color": "brown",
+    "broken_color": "brown",
+    "difficulty": 4,
+    "folded_volume": 22,
+    "breaks_into": [ { "item": "cangun", "prob": 50 } ]
+  },
+  {
+    "id": "gattler1",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual rotary cannon",
+    "item": "gattler",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "range": 15,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "gattler", "prob": 50 } ]
+  },
+  {
+    "id": "lasgun",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual laser cannon",
+    "item": "lasgun",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 6,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "lasgun", "prob": 50 } ]
+  },
+  {
+    "id": "lasgunp",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual pulse laser",
+    "item": "lasgunp",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 6,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "lasgun", "prob": 50 } ]
+  },
+  {
+    "id": "lasgunx",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual turbolaser",
+    "item": "lasgunx",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 6,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "lasgunx", "prob": 50 } ]
+  },
+  {
+    "id": "mflamethrower3",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual RM451 flamethrower",
+    "item": "rm451_flamethrower",
+    "color": "red",
+    "broken_color": "red",
+    "difficulty": 4,
+    "range": 12,
+    "folded_volume": 19,
+    "breaks_into": [ { "item": "rm451_flamethrower", "prob": 50 } ],
+    "flags": [ "TURRET", "FOLDABLE", "TOOL_NONE", "USE_TANKS" ]
+  },
+  {
+    "id": "nailer",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual perforator",
+    "item": "nailer",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "nailer", "prob": 50 } ]
+  },
+  {
+    "id": "needler",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual needler",
+    "item": "needler",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 5,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "needler", "prob": 50 } ]
+  },
+  {
+    "id": "railturret",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual hypervelocity driver",
+    "item": "railturret",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "difficulty": 5,
+    "range": 14,
+    "folded_volume": 16,
+    "breaks_into": [ { "item": "railturret", "prob": 50 } ]
+  },
+  {
+    "id": "ripper",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual ripper",
+    "item": "ripper",
+    "broken_symbol": "x",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "power": -25,
+    "range": 15,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "ripper", "prob": 50 } ]
+  },
+  {
+    "id": "rslauncher",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual rotary speargun",
+    "item": "rslauncher",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 5,
+    "folded_volume": 18,
+    "breaks_into": [ { "item": "rslauncher", "prob": 50 } ]
+  },
+  {
+    "id": "scorpion",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual scorpion ballista",
+    "item": "scorpion",
+    "color": "brown",
+    "broken_color": "brown",
+    "difficulty": 4,
+    "folded_volume": 20,
+    "breaks_into": [ { "item": "scorpion", "prob": 50 } ]
+  },
+  {
+    "id": "shardgun",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual splintergun",
+    "item": "shardgun",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 6,
+    "folded_volume": 14,
+    "breaks_into": [ { "item": "shardgun", "prob": 50 } ]
+  },
+  {
+    "id": "slauncher",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual speargun",
+    "item": "slauncher",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 3,
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "slauncher", "prob": 50 } ]
+  },
+  {
+    "id": "teslagun",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual tesla cannon",
+    "item": "teslagun",
+    "color": "blue",
+    "broken_color": "blue",
+    "difficulty": 3,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "teslagun", "prob": 50 } ]
+  },
+  {
+    "id": "tiharturret",
+    "copy-from": "blaze_turret_manual",
+    "type": "vehicle_part",
+    "name": "manual avalanche rifle",
+    "item": "tiharturret",
+    "color": "ltgray",
+    "broken_color": "ltgray",
+    "difficulty": 4,
+    "folded_volume": 15,
+    "breaks_into": [ { "item": "tiharturret", "prob": 50 } ]
   }
 ]
