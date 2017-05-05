@@ -205,6 +205,24 @@
     "broken_color": "white",
     "difficulty": 1,
     "durability": 5000,
+    "damage_reduction": { "all": 20 },
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 30000,
+        "using": "blazemod_diamond"
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 5000,
+        "using": "blazemod_diamondminor"
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": 10000,
+        "using": "blazemod_diamondfix"
+      }
+    },
     "flags": [ "ARMOR", "WINDOW" ]
   },
   {
