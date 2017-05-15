@@ -514,7 +514,7 @@
     "broken_color" : "light_red",
     "power" : 100,
     "epower" : 20,
-    "fuel_type" : "bfeed",
+    "fuel_type" : "slime_scrap",
     "item" : "oozle",
     "location" : "center",
     "flags" : ["REACTOR", "OBSTACLE"]
